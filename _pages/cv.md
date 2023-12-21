@@ -11,21 +11,19 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Physics, Universidad Autónoma de Madrid, 2021.
+* M.S. in Condensed Matter Physics, Universidad Autónoma de Madrid, 2022.
+* Ph.D candidate in Condensed Matter Physics, Universidad Autónoma de Madrid, ongoing.
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2023-ongoing: PhD Candidate
+  * Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC.
+  * Supervisor: Elsa Prada and Ramón Aguado.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2021-2022: Research Assistant
+  * Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC.
+  * Supervisor: Elsa Prada.
   
 Skills
 ======
