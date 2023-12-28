@@ -7,4 +7,4 @@ venue: 'Master&apos;s Thesis'
 paperurl: 'https://carlosp24.github.io/files/TFM.pdf'
 citation: ' Carlos Payá, &quot;Topological phase and Majorana zero modes in full-shell nanowires.&quot; Master&amp;apos;s Thesis, 2022.'
 ---
-[Access paper here](https://carlosp24.github.io/files/TFM.pdf){:target="_blank"}
+[Access this work here](https://carlosp24.github.io/files/TFM.pdf){:target="_blank"}
