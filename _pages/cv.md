@@ -17,11 +17,15 @@ redirect_from:
 | **Group**        | [Theroy of Quantum Materials and Solid State Quantum Technologies](https://wp.icmm.csic.es/tqe/) |
 | **E-mail**       | [carlos.paya@csic.es](mailto:carlos.paya@csic.es) |
 
+***
+
 ## Education
 
 * B.S. in Physics, Universidad Autónoma de Madrid, 2021.
 * M.S. in Condensed Matter Physics, Universidad Autónoma de Madrid, 2022.
 * Ph.D candidate in Condensed Matter Physics, Universidad Autónoma de Madrid, ongoing.
+
+***
 
 ## Work experience
 
@@ -33,6 +37,7 @@ redirect_from:
   * Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC.
   * Supervisor: Elsa Prada.
   
+***
 
 ## Publications
 
