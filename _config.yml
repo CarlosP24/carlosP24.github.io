@@ -245,10 +245,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _other_publications
+  # _other
   - scope:
       path: ""
-      type: other_publications
+      type: other
     values:
       layout: single
       author_profile: true
