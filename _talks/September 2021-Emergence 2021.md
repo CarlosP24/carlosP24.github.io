@@ -8,6 +8,6 @@ date: September 2021
 location: "Madrid, Spain"
 ---
 
-[About this event:](https://wp.icmm.csic.es/emergence/)
-
 Graduate Summer School focused on the effects of interactions and topology in materials and low-dimensional systems.
+
+[More info here.](https://wp.icmm.csic.es/emergence/)
