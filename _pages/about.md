@@ -14,5 +14,3 @@ My work focuses on the theoretical and simulational study of the realiztaion of 
 Although my expertise is in theoretical and computational physics, I collaborate closely with several experimental groups by performing sophisticated numerical simulations.
 
 You can reach me by email: [carlos.paya@csic.es](mailto:carlos.paya@csic.es).
-
-Testing
