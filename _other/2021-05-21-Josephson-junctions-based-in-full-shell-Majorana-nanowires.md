@@ -1,6 +1,6 @@
 ---
 title: "Josephson junctions based in full-shell Majorana nanowires"
-collection: other
+collection: publications
 permalink: /other/2021-05-21-Josephson-junctions-based-in-full-shell-Majorana-nanowires
 date: 2022-09-20
 venue: 'Bachelor's degree thesis'
