@@ -183,6 +183,12 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  preprints:
+    output: true
+    permalink: /:collection/:path/
+  other:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -224,6 +230,15 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _other_publications
+  - scope:
+      path: ""
+      type: other_publications
     values:
       layout: single
       author_profile: true
