@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,25 +9,33 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+
+| **Basic info**   |                                                                                                  |
+| --               | --                                                                                               |
+| **Full name**    | Carlos Payá Herrero                                                                              | 
+| **Location**     | [Instituto de Ciencia de Materiales de Madrid (ICMM)](https://www.icmm.csic.es/)                 |
+| **Group**        | [Theroy of Quantum Materials and Solid State Quantum Technologies](https://wp.icmm.csic.es/tqe/) |
+| **E-mail**       | [carlos.paya@csic.es](mailto:carlos.paya@csic.es) |
+
+## Education
+
 * B.S. in Physics, Universidad Autónoma de Madrid, 2021.
 * M.S. in Condensed Matter Physics, Universidad Autónoma de Madrid, 2022.
 * Ph.D candidate in Condensed Matter Physics, Universidad Autónoma de Madrid, ongoing.
 
-Work experience
-======
+## Work experience
+
 * 2023-ongoing: PhD Candidate
   * Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC.
-  * Supervisor: Elsa Prada and Ramón Aguado.
+  * Supervisors: Elsa Prada and Ramón Aguado.
 
 * 2021-2022: Research Assistant
   * Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC.
   * Supervisor: Elsa Prada.
   
 
-Publications
-======
+## Publications
+
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
