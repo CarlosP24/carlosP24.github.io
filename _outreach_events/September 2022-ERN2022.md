@@ -1,8 +1,8 @@
 ---
 title: "European Researchers' Nigth"
-collection: talks
+collection: outreach
 type: "Logistics"
-permalink: /outreach/September 2022-ERN2022
+permalink: /outreach_events/September 2022-ERN2022
 venue: "Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC"
 date: September 2022
 location: "Madrid, Spain"
