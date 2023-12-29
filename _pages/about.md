@@ -14,3 +14,13 @@ My work focuses on the theoretical and simulational study of the realiztaion of 
 Although my expertise is in theoretical and computational physics, I collaborate closely with several experimental groups by performing sophisticated numerical simulations.
 
 You can reach me by email: [carlos.paya@csic.es](mailto:carlos.paya@csic.es).
+
+***
+
+## Latest preprint
+
+Check our last preprint, Phrenomenology of Majorana zero modes in full-shell hybrid nanowires [here](https://arxiv.org/abs/2312.11613). Everything you ever wanted to know (theoretically) about Majoranas in full-shell nanowires. 
+
+A little summary, in this [X thread](https://x.com/cPaya_phys/status/1737389726024266103?s=20).
+
+![Hybrid Majorana nanowire schematic](/images/2023_12_arXiv_highligths.png)
