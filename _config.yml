@@ -188,6 +188,9 @@ collections:
   preprints:
     output: true
     permalink: /:collection/:path/
+  outreach:
+    output: true
+    permalink: /:collection/:path/
   other:
     output: true
     permalink: /:collection/:path/
@@ -268,6 +271,14 @@ defaults:
   - scope:
       path: ""
       type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+  # _talks
+  - scope:
+      path: ""
+      type: outreach
     values:
       layout: talk
       author_profile: true
