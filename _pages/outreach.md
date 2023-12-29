@@ -18,6 +18,4 @@ We also participate in scientific outreach events, such as the European Research
 
 ## Outreach events
 
-{% for post in site.outreach reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+{% include outreach_events.html %}
