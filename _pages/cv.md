@@ -54,3 +54,11 @@ redirect_from:
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
+***
+
+## Outreach
+
+  <ul style="list-style: none;">{% for post in site.outreach reversed %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+
