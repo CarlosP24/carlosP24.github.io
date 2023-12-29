@@ -4,8 +4,6 @@ title: "Outreach"
 permalink: /outreach/
 author_profile: true
 ---
-{% include base_path %}
-
 ## Superconductivity Outreach Team
 
 Since September 2023, I am a member of the [Superconductivity outreach team](https://wp.icmm.csic.es/superconductividad/) at ICMM. The team is coordinated by María José Calderón and Leni Bascones. 
@@ -18,4 +16,6 @@ We also participate in scientific outreach events, such as the European Research
 
 ## Outreach events
 
-{% include outreach_events.html %}
+{% for post in site.outreach reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
