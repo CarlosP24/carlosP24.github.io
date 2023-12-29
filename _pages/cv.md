@@ -41,7 +41,7 @@ redirect_from:
 
 ## Publications
 
-  <ul style="list-style: none;">{% for post in site.publications %}
+  <ul style="list-style: none;">{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
@@ -49,7 +49,7 @@ redirect_from:
 
 ## Conference contributions
 
-  <ul style="list-style: none;">{% for post in site.talks %}
+  <ul style="list-style: none;">{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
