@@ -11,3 +11,5 @@ location: "Madrid, Spain"
 [More info here.](https://lanochedelosinvestigadores.es/)
 
 Participation as a member of the logistics team in the event &quot;La Ciencia Encendida&quot;, part of the European Researchers&apos; Night 2022.
+
+ 
