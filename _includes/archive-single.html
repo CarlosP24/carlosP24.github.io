@@ -46,8 +46,11 @@
           <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}. </p>
         {% elsif post.collection == 'other' %}
           <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}. </p>
-        {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i></strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %Y" }}</time>.</p>
+        {% elsif post.collection == 'outreach' %}
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i></strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %Y" }}</time>.</p>
+          <p><b>{{ post.type }}</b>. {{ post.venue }},  {{post.location}}.</p>
+          {% elsif post.date %}
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i></strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %Y" }}</time>.</p>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
