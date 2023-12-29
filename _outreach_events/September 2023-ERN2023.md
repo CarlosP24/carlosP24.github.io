@@ -2,7 +2,7 @@
 title: "European Researchers' Night 2023"
 collection: talks
 type: "Workshopper"
-permalink: /talks/September 2023-ERN2023
+permalink: /outreach/September 2023-ERN2023
 venue: "Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC"
 date: September 2023
 location: "Madrid, Spain"
