@@ -8,6 +8,6 @@ date: September 2023
 location: "Madrid, Spain"
 ---
 
-Event for primary school and high-school students in which we participated with our superconductivity workshop.
-
 [More info here.](https://lanochedelosinvestigadores.es/)
+
+Event for primary school and high-school students in which we participated with our superconductivity workshop.
