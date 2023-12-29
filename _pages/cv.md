@@ -58,6 +58,13 @@ redirect_from:
 
 ## Outreach
 
+* 2023-ongoing: Member of the Superconductivity Outreach Team.
+  * Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC.
+  * Coordinators: María José Calderón and Leni Bascones.
+  * Regular activites: monthly talks and demonstrations to high-school students.
+
+### Events
+
   <ul style="list-style: none;">{% for post in site.outreach reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
