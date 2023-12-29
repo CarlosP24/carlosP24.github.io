@@ -21,9 +21,10 @@ redirect_from:
 
 ## Education
 
-* Ph.D candidate in Condensed Matter Physics, Universidad Autónoma de Madrid, ongoing.
-* M.S. in Condensed Matter Physics, Universidad Autónoma de Madrid, 2022.
-* B.S. in Physics, Universidad Autónoma de Madrid, 2021.
+* PhD candidate in Condensed Matter Physics, Universidad Autónoma de Madrid, ongoing.
+  * Tentative completion date: February, 2027.
+* MSc in Condensed Matter Physics, Universidad Autónoma de Madrid, 2022.
+* BSc in Physics, Universidad Autónoma de Madrid, 2021.
 
 ***
 
