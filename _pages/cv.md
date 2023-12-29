@@ -41,15 +41,15 @@ redirect_from:
 
 ## Publications
 
-  {% for post in site.publications %}
+  <ul style="list-style: none;">{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}
+  {% endfor %}</ul>
 
 ***
 
 ## Conference contributions
 
-  {% for post in site.talks %}
+  <ul style="list-style: none;">{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}
+  {% endfor %}</ul>
 
