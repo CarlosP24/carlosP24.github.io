@@ -23,4 +23,4 @@ Check our last preprint, Phrenomenology of Majorana zero modes in full-shell hyb
 
 A little summary, in this [X thread](https://x.com/cPaya_phys/status/1737389726024266103?s=20).
 
-![Hybrid Majorana nanowire schematic](/images/2023_12_arXiv_highligths.png)
+![Hybrid Majorana nanowire schematic](/images/2023_12_arXiv_highlights.png)
