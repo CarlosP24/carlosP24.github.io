@@ -4,8 +4,10 @@ main:
     url: /publications/
 
   - title: "Conferences"
-    url: /talks/    
+    url: /talks/  
 
+  - title: "Outreach"
+    url: /outreach/ 
 
   #- title: "Teaching"
   #  url: /teaching/    

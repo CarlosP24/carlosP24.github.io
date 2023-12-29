@@ -7,4 +7,4 @@ venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2312.11613'
 citation: ' Carlos Payá,  Samuel Escribano,  Andrea Vezzosi,  Fernando Peñaranda,  Ramón Aguado,  Pablo San-Jose,  Elsa Prada,  arXiv 2312.11613, 2023.'
 ---
-[Access this preprint here](https://arxiv.org/abs/2312.11613){:target="_blank"}
+[Access this preprint here](https://arxiv.org/abs/2312.11613){:target="_blank"}.

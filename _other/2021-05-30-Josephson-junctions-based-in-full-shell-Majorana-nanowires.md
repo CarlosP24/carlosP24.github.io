@@ -7,4 +7,4 @@ venue: 'Bachelor&apos;s Thesis'
 paperurl: 'https://carlosp24.github.io/files/TFG.pdf'
 citation: ' Carlos Payá,  Bachelor&apos;s Thesis, 2021.'
 ---
-[Access this work here](https://carlosp24.github.io/files/TFG.pdf){:target="_blank"}
+[Access this work here](https://carlosp24.github.io/files/TFG.pdf){:target="_blank"}.
