@@ -8,8 +8,6 @@ date: November 2023
 location: "Madrid, Spain"
 ---
 
-[More info here.](https://www.semanadelaciencia.csic.es/)
-
 Scientific outreach event for primary school and high-school students and families consisting of a talk on superconductivity and several workshops on electromagnetism and superconductivity.
 
- 
+[More info here.](https://www.semanadelaciencia.csic.es/)
