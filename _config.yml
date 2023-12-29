@@ -275,7 +275,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # _talks
+  # _outreach
   - scope:
       path: ""
       type: outreach
