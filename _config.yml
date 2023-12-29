@@ -86,7 +86,9 @@ author:
   avatar           : "profile.png"
   bio              : "PhD candidate in Theroetical Condensed Matter Physics"
   location         : "Madrid, Spain"
+  location_link    : "https://maps.app.goo.gl/e2rG8qEtnmAiGJBs8"
   employer         : "ICMM - CSIC"
+  employer_webpage : "https://www.icmm.csic.es/"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=hiK2lg4AAAAJ&hl=es"
   email            : "carlos.paya@csic.es"
