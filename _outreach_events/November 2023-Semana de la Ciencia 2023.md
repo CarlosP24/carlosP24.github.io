@@ -1,8 +1,8 @@
 ---
 title: "Semana de la Ciencia (Science Week)"
-collection: talks
+collection: outreach
 type: "Workshopper"
-permalink: /outreach/November 2023-Semana de la Ciencia 2023
+permalink: /outreach_events/November 2023-Semana de la Ciencia 2023
 venue: "CSIC"
 date: November 2023
 location: "Madrid, Spain"

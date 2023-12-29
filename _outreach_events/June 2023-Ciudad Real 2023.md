@@ -1,8 +1,8 @@
 ---
 title: "Ciencia en la Calle"
-collection: talks
+collection: outreach
 type: "Workshopper"
-permalink: /outreach/June 2023-Ciudad Real 2023
+permalink: /outreach_events/June 2023-Ciudad Real 2023
 venue: "Casa de la Ciencia"
 date: June 2023
 location: "Ciudad Real, Spain"
