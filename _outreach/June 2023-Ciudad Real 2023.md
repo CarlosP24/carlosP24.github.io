@@ -8,6 +8,6 @@ date: June 2023
 location: "Ciudad Real, Spain"
 ---
 
-Science fair for families and general public. 
-
 [More info here.](https://casadelaciencia.es/)
+
+Science fair for families and general public. 
