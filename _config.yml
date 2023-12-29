@@ -280,7 +280,7 @@ defaults:
       path: ""
       type: outreach
     values:
-      layout: talk
+      layout: outreach
       author_profile: true
       share: true
 

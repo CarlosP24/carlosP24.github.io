@@ -35,7 +35,7 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %Y" }}</time></p>
         {% endif %}
-        {% if page.type %}<p><b>{{page.type}}</b> presented at {{ page.venue }},  {{page.location}}. {% endif %}
+        {% if page.type %}<p>Role: <b>{{page.type}}</b>. {{ page.venue }},  {{page.location}}. {% endif %}
 
         </header>
       {% endunless %}
