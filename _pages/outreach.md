@@ -14,6 +14,8 @@ We carry out monthly superconductivity demonstrations for high-school students v
 
 We also participate in scientific outreach events, such as the European Researchers Night, 11F, Semana de la Ciencia, etc.
 
+***
+
 ## Outreach events
 
 {% for post in site.outreach reversed %}
