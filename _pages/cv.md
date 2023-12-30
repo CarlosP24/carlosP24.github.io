@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+Download my full CV [here](https://carlosp24.github.io/files/CV.pdf).
 
 | **Basic info**   |                                                                                                  |
 | --               | --                                                                                               |
