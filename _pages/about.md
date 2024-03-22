@@ -17,7 +17,7 @@ You can reach me by email: [carlos.paya@csic.es](mailto:carlos.paya@csic.es).
 
 ***
 
-## Latest preprint
+## Latest publication
 
 Check our latest paper, Phenomenology of Majorana zero modes in full-shell hybrid nanowires, [here](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.115428). Everything you ever wanted to know (theoretically) about Majoranas in full-shell nanowires. 
 
