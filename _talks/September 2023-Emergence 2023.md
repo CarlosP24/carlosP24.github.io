@@ -8,7 +8,7 @@ date: September 2023
 location: "Madrid, Spain"
 ---
 
-[Check my contribution here.](https://carlosp24.github.io/Poster2023_09.pdf/)
+[Check my contribution here.](https://carlosp24.github.io/files/Poster2023_09.pdf)
 
 Graduate Summer School focused on the effects of interactions and topology in materials and low-dimensional systems.
 

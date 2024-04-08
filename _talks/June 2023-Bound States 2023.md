@@ -8,7 +8,7 @@ date: June 2023
 location: "Budapest, Hungary"
 ---
 
-[Check my contribution here.](https://carlosp24.github.io/Poster2023_04.pdf/)
+[Check my contribution here.](https://carlosp24.github.io/files/Poster2023_04.pdf)
 
 Workshop on Andreev and Majorana bound states in nanoscale solid-state devices.
 
