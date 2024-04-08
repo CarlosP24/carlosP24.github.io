@@ -8,7 +8,7 @@ date: May 2023
 location: "Madrid, Spain"
 ---
 
-[Check my contribution here.](https://carlosp24.github.io/Poster2023_04.pdf/)
+[Check my contribution here.](https://carlosp24.github.io/files/Poster2023_04.pdf)
 
 First Seminar for young Materials Researchers at ICMM.
 
