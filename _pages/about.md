@@ -19,8 +19,8 @@ You can reach me by email: [carlos.paya@csic.es](mailto:carlos.paya@csic.es).
 
 ## Highlights
 
-Check our paper *Phenomenology of Majorana zero modes in full-shell hybrid nanowires* [here](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.115428). Everything you ever wanted to know (theoretically) about Majoranas in full-shell nanowires. 
+Our latest preprint *Absence of Majorana oscillations in full-shell hybrid nanowires* is out at the [arXiv](https://arxiv.org/abs/2407.06330). Check out why we should not expect to measure the smoking gun of topological superconductivity in full-shell wires. 
 
-A little summary, in this [X thread](https://x.com/cPaya_phys/status/1737389726024266103?s=20).
+A little summary, in this [X thread](https://x.com/cPaya_phys/status/1810978403425673437).
 
-![Hybrid Majorana nanowire schematic](/images/2023_12_arXiv_highlights.png)
+![Hybrid Majorana nanowire schematic](/images/2024_07_arXiv_highlights.png)
