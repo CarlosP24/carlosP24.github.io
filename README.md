@@ -1,1 +1,1 @@
-My personal website. Made using [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) fork by [Stuart Geiger](https://github.com/staeiou). © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+My personal website. Made using [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) fork by [Stuart Geiger](https://github.com/staeiou). 
