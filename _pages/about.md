@@ -19,7 +19,7 @@ You can reach me by email: [carlos.paya@csic.es](mailto:carlos.paya@csic.es).
 
 ## Highlights
 
-Our latest preprint *Absence of Majorana oscillations in full-shell hybrid nanowires* is out at the [arXiv](https://arxiv.org/abs/2407.06330). Check out why we should not expect to measure the smoking gun of topological superconductivity in full-shell wires. 
+Our latest paper *Absence of Majorana oscillations in full-shell hybrid nanowires* is available in [PRB](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.115417). Check out why we should not expect to measure the smoking gun of topological superconductivity in full-shell wires. 
 
 A little summary, in this [X thread](https://x.com/cPaya_phys/status/1810978403425673437).
 
