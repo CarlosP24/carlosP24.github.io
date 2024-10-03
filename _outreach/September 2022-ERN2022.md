@@ -1,5 +1,5 @@
 ---
-title: "European Researchers' Nigth"
+title: "European Researchers' Nigth 2022"
 collection: outreach
 type: "Logistics"
 permalink: /outreach/September 2022-ERN2022
