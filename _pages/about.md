@@ -19,8 +19,6 @@ Wanna talk? Reach me by email: [carlos.paya@csic.es](mailto:carlos.paya@csic.es)
 
 ## Highlights
 
-Our latest paper *Absence of Majorana oscillations in full-shell hybrid nanowires* is available in [PRB](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.115417). Check out why we should not expect to measure the smoking gun of topological superconductivity in full-shell wires. 
+Check our latest preprint *Caroli-de Gennes-Matricon Analogs in Full-Shell Hybrid Nanowires* in the [arXiv](https://arxiv.org/abs/2501.05419), the experimental measurement of our previous theory work in [PRB](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.155423).
 
-A little summary, in this [X thread](https://x.com/cPaya_phys/status/1810978403425673437).
-
-![Hybrid Majorana nanowire schematic](/images/2024_07_arXiv_highlights.png)
+![dI/dV at the edge of a hybrid nanowire showing CdGM analogs](images/2025_01_arXiv_highlights.png)
