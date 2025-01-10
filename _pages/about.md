@@ -21,4 +21,4 @@ Wanna talk? Reach me by email: [carlos.paya@csic.es](mailto:carlos.paya@csic.es)
 
 Check our latest preprint *Caroli-de Gennes-Matricon Analogs in Full-Shell Hybrid Nanowires* in the [arXiv](https://arxiv.org/abs/2501.05419), the experimental measurement of our previous theory work in [PRB](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.155423).
 
-![dI/dV at the edge of a hybrid nanowire showing CdGM analogs](images/2025_01_arXiv_highlights.png)
+[![dI/dV at the edge of a hybrid nanowire showing CdGM analogs](images/2025_01_arXiv_highlights.png)](https://arxiv.org/abs/2501.05419)
