@@ -15,7 +15,7 @@ Download my full CV [here](https://carlosp24.github.io/files/CV.pdf).
 | --               | --                                                                                               |
 | **Full name**    | Carlos Payá Herrero                                                                              | 
 | **Location**     | [Instituto de Ciencia de Materiales de Madrid (ICMM)](https://www.icmm.csic.es/)                 |
-| **Group**        | [Theroy of Quantum Materials and Solid State Quantum Technologies](https://wp.icmm.csic.es/tqe/) |
+| **Groups**        | [QUDYMA](https://sites.google.com/view/qudyma-icmm) and [Q4Q](https://wp.icmm.csic.es/tqe/) |
 | **E-mail**       | [carlos.paya@csic.es](mailto:carlos.paya@csic.es) |
 
 ***
