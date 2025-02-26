@@ -34,6 +34,9 @@ Download my full CV [here](https://carlosp24.github.io/files/CV.pdf).
 * 2023-ongoing: PhD Candidate
   * Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC.
   * Supervisors: Elsa Prada and Ramón Aguado.
+  * April - July 2025: Visiting PhD Candidate
+    * Niels Bohr Institute, University of Copenhagen.
+    * Supervisor: Karsten Flensberg
 
 * 2021-2022: Research Assistant
   * Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC.
