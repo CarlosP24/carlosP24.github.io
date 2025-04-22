@@ -1,6 +1,6 @@
 ---
 permalink: /refs-poster-Josephson/
-title: "References for poster Josephson effect in full-shell hybrid nanowires"
+title: "Josephson effect in full-shell hybrid nanowires: poster references"
 #excerpt: "This is a page not in th emain menu"
 author_profile: true
 # redirect_from: 
