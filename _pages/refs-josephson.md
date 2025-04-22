@@ -7,7 +7,6 @@ author_profile: true
 #   - "/nmp/"
 #   - "/nmp.html"
 ---
-# Josephson effect in full-shell hybrid nanowires - References
 All results presented in this poster are available in the following preprints and publications.
 
 On the full-shell nanowire theory and experimental demonstration of Caroli-de Gennes-Matricon analog states:
