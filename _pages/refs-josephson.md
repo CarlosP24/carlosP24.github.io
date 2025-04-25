@@ -15,7 +15,7 @@ On the full-shell nanowire theory and experimental demonstration of Caroli-de Ge
 
 On the theory of full-shell Josephson junctions:
 + C. Payá, R. Aguado, P. San-Jose and E. Prada, *Josephson effect and critical currents in trivial and topological full-shell hybrid nanowires*, [arXiv:2503.09756](https://arxiv.org/abs/2503.09756) (2025)
-+ C. Payá, F.J. Matute-Cañadas, A. Levy Yeyati, R. Aguado, P. San-Jose and E. Prada, *Fluxoid Valve Effect in Full-Shell Nanowire Josephson Junctions*, *to be submitted* (2025).
++ C. Payá, F.J. Matute-Cañadas, A. Levy Yeyati, R. Aguado, P. San-Jose and E. Prada, *Fluxoid Valve Effect in Full-Shell Nanowire Josephson Junctions*, [arXiv:2504.16989](https://arxiv.org/abs/2504.16989) (2025).
 
 Other relevant publications on the theory of full-shell hybrid nanowires:
 + P. San-Jose, C. Payá, C.M. Marcus, S. Vaitiekėnas and E. Prada, *Theory of Caroli-de Gennes-Matricon analogs in full-shell hybrid nanowires*, [Phys. Rev. B 107, 155423](https://doi.org/10.1103/PhysRevB.107.155423) (2023).
