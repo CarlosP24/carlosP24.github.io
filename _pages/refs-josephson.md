@@ -10,7 +10,7 @@ author_profile: true
 All results presented in this [poster](https://carlosp24.github.io/files/Poster2025_05.pdf) are available in the following preprints and publications.
 
 On the full-shell nanowire theory and experimental demonstration of Caroli-de Gennes-Matricon analog states:
-+ M. T. Deng, C. Payá, P. San-Jose, E. Prada, C.M. Marcus and S. Vaitiekėnas, *Caroli-de Gennes-Matricon Analogs in Full-Shell Hybrid Nanowires*, [arXiv:2501.05419](https://arxiv.org/abs/2501.05419) (2025).
++ M. T. Deng, C. Payá, P. San-Jose, E. Prada, C.M. Marcus and S. Vaitiekėnas, *Caroli-de Gennes-Matricon Analogs in Full-Shell Hybrid Nanowires*, [arXiv:2501.05419](https://arxiv.org/abs/2501.05419) (2025) - **accepted in PRL**.
 + C. Payá, S.D. Escribano, A. Vezzosi, F. Peñaranda, R. Aguado, P. San-Jose and E. Prada, *Phenomenology of Majorana zero modes in full-shell hybrid nanowires*, [Phys. Rev. B 109, 115428](https://doi.org/10.1103/PhysRevB.109.115428) (2024).
 
 On the theory of full-shell Josephson junctions:
