@@ -7,7 +7,7 @@ author_profile: true
 #   - "/nmp/"
 #   - "/nmp.html"
 ---
-All results presented in this [poster](https://carlosp24.github.io/files/Poster2025_05.pdf) are available in the following preprints and publications.
+All results presented in this [poster](https://carlosp24.github.io/files/Poster2025_04.pdf) are available in the following preprints and publications.
 
 On the full-shell nanowire theory and experimental demonstration of Caroli-de Gennes-Matricon analog states:
 + M. T. Deng, C. Payá, P. San-Jose, E. Prada, C.M. Marcus and S. Vaitiekėnas, *Caroli-de Gennes-Matricon Analogs in Full-Shell Hybrid Nanowires*, [arXiv:2501.05419](https://arxiv.org/abs/2501.05419) (2025) - **accepted in PRL**.
