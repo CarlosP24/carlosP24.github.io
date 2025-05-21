@@ -60,6 +60,15 @@ Download my full CV [here](https://carlosp24.github.io/files/CV.pdf).
 
 ***
 
+## Teaching
+### Supervised students
+
+* 2024-2025: César Robles - Bachelor's Thesis
+  * Main supervisor: Elsa Prada
+  * Title: _Quasi-Majoranas in inhomogeneous full-shell hybrid nanowires_
+
+***
+
 ## Outreach
 
 * 2023-ongoing: Member of the Superconductivity Outreach Team.
