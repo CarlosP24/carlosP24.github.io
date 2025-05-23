@@ -18,8 +18,8 @@ If you’d like to discuss my work or potential collaborations, please feel free
 
 ## Highlights
 
-Check out our latest preprint, *Fluxoid Valve Effect in Full Shell Nanowire Josephson Junctions* in [arXiv](https://arxiv.org/abs/2504.16989) in which we propose a new type of supercurrent valve based on the different phase windings the full shell wires at each side of a Josephson can acquire.
+Our theory of Caroli-de Gennes-Matricon analogs in full-shell nanowires, published back in 2023 in [PRB](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.155423) has been demonstrated experimentally in our recent [PRL publication](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.206302). Sole's excellent summary on this finding:
 
-See too the experimental demonstration of our previously studied non-topological subgap sates in full shell wires, titled *Caroli-de Gennes-Matricon Analogs in Full-Shell Hybrid Nanowires* in [arXiv](https://arxiv.org/abs/2501.05419).
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7331389324178952192" height="759" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-[![dI/dV at the edge of a hybrid nanowire showing CdGM analogs](images/2025_01_arXiv_highlights.png)](https://arxiv.org/abs/2501.05419)
+Check also our latest preprint, *Fluxoid Valve Effect in Full Shell Nanowire Josephson Junctions* in [arXiv](https://arxiv.org/abs/2504.16989) in which we propose a new type of supercurrent valve based on the different phase windings the full shell wires at each side of a Josephson can acquire.+
