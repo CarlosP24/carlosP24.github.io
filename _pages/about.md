@@ -22,4 +22,4 @@ Our theory of Caroli-de Gennes-Matricon analogs in full-shell nanowires, publish
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7331389324178952192" height="759" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-Check also our latest preprint, *Fluxoid Valve Effect in Full Shell Nanowire Josephson Junctions* in [arXiv](https://arxiv.org/abs/2504.16989) in which we propose a new type of supercurrent valve based on the different phase windings the full shell wires at each side of a Josephson can acquire.
+Check also our latest preprint, *Fluxoid Valve Effect in Full Shell Nanowire Josephson Junctions* in [arXiv](https://arxiv.org/abs/2504.16989) in which we propose a new type of supercurrent valve based on the different phase windings the full shell wires at each side of a Josephson can acquire; and our latest publication *Josephson Effect and Critical Currents in Trivial and Topological Full-Shell Hybrid Nanowires*, exploring the rich phenomenology of nanowire junctions in [PRB](https://journals.aps.org/prb/abstract/10.1103/8mzs-dx7h).
