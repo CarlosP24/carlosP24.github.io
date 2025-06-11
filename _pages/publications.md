@@ -12,6 +12,7 @@ author_profile: true
   var arxiv_authorid = "paya_c_1";
   var arxiv_format = "arxiv";
   var arxiv_includeComments = 0;
+  var arxiv_includeSubjects = 0;
 </script>
 <script type="text/javascript" src="{{ '/assets/js/myarticles.js' | relative_url }}"></script>
 
