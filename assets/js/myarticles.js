@@ -105,7 +105,7 @@ function makearXiv(feed)
         if (entry.journal_ref && entry.journal_ref.length > 1 && entry.doi && entry.doi.length > 0) {
             html += '\t<span class="list-identifier" style="font-size:large;font-weight:bold;margin:0.25em 0 0 0;line-height:120%"><a href="https://dx.doi.org/' + entry.doi + '" title="Journal" style="text-decoration:none;color:inherit;">' + entry.title + '</a>';
         } else {
-            html += '\t<span class="list-identifier" style="font-size:large;font-weight:bold;margin:0.25em 0 0 0;line-height:120%"><a href="' + entry.id + '" title="Abstract" style="text-decoration:none;color:inherit;">' + entry.title + '</a>';
+            html += '\t<span class="list-identifier" style="font-size:large;font-weight:bold;margin:0.25em 0 0 0;line-height:120%"><a href="' + entry.id + '" title="Preprint" style="text-decoration:none;color:inherit;">' + entry.title + '</a>';
         }
         html += "</span>\n</dt>\n";
         html += '<dd style="padding-bottom:1em;">\n\t<div class="meta" style="line-height:130%;">\n';
@@ -117,7 +117,7 @@ function makearXiv(feed)
             return '<b>Carlos Payá</b>';
             } else if (name.length > 0) {
             var encodedName = encodeURIComponent(name);
-            return '<a href="https://arxiv.org/search/?query=' + encodedName + '&searchtype=author" target="_blank" style="text-decoration:none;color:inherit;font-weight:normal;">' + name + '</a>';
+            return '<a href="https://arxiv.org/search/?query=' + encodedName + '&searchtype=author" target="_blank" title="Author\'s arXiv" style="text-decoration:none;color:inherit;font-weight:normal;">' + name + '</a>';
             } else {
             return '';
             }
@@ -127,7 +127,7 @@ function makearXiv(feed)
         if (arxiv_includeJournalRef && entry.journal_ref && entry.journal_ref.length > 1) {
             html += '\t\t<div class="list-journal-ref" style="font-weight:normal;font-size:100%;color:#6A994E;text-decoration:none;">';
             if (entry.doi && entry.doi.length > 0) {
-                html += '<a href="https://dx.doi.org/' + entry.doi + '" style="color:#6A994E;text-decoration:none;">' + entry.journal_ref + '</a>';
+                html += '<a href="https://dx.doi.org/' + entry.doi + '" title="Journal" style="color:#6A994E;text-decoration:none;">' + entry.journal_ref + '</a>';
             } else {
                 html += entry.journal_ref;
             }
@@ -148,7 +148,7 @@ function makearXiv(feed)
             }
             }
             html += '\t\t<div class="list-arxiv-id" style="font-weight:normal;font-size:100%;">' +
-            '<a href="' + entry.id + '" style="text-decoration:none;color:#BC4749;">arXiv:' + absMatch[1] + (year ? ' (' + year + ')' : '') + '</a></div>\n';
+            '<a href="' + entry.id + '" title="Preprint" style="text-decoration:none;color:#BC4749;">arXiv:' + absMatch[1] + (year ? ' (' + year + ')' : '') + '</a></div>\n';
         }
         // Add summary in a paragraph if requested
         // if (arxiv_includeSummary != 0) {
