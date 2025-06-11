@@ -45,7 +45,7 @@ function makearXiv(feed)
   num_entries = feed.entries.length;
   extra_entries = false;
   for (x=0; x<num_entries; x++){
-    html += '<dt>['+(num_entries-x)+']&nbsp\n';
+    html += '<dt>['+(x+1)+']&nbsp\n';
     html += '\t<span class="list-identifier" style="font-weight:bold"><a href="'+feed.entries[x].id+'" title="Abstract">'+feed.entries[x].id+'</a> [ ';
     for (format_name in feed.entries[x].formats) {
       if (feed.entries[x].formats.hasOwnProperty(format_name)) {
