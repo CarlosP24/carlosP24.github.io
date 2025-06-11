@@ -6,7 +6,12 @@ author_profile: true
 ---
 {% include base_path %}
 
-You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=hiK2lg4AAAAJ&hl=es).
+## Preprints
+<div id="arxivfeed"></div>
+<script type="text/javascript">
+var arxiv_authorid = "paya_c_1";
+</script>
+<script type="text/javascript" src="https://arxiv.org/js/myarticles.js"></script>
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
