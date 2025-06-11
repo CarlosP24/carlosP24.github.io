@@ -5,9 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 {% include base_path %}
-
-## Preprints
 <div id="arxivfeed"></div>
+<div style="margin-left:1em;">
+  {% include other_works.html %}
+</div>
 <script type="text/javascript">
   var arxiv_authorid = "paya_c_1";
   var arxiv_format = "arxiv";
@@ -16,13 +17,3 @@ author_profile: true
   var arxiv_max_entries = 0;
 </script>
 <script type="text/javascript" src="{{ '/assets/js/myarticles.js' | relative_url }}"></script>
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
-## Other publications
-
-{% for post in site.other reversed %}
-  {% include archive-single.html %}
-{% endfor %}
