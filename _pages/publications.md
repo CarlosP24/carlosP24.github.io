@@ -7,7 +7,7 @@ author_profile: true
 {% include base_path %}
 
 
-<script>
+<script type="text/javascript">
   var headID = document.getElementsByTagName("head")[0];
   var newScript = document.createElement('script');
   var urlPrefix = 'https://arxiv.org/a/';
@@ -76,7 +76,6 @@ function makearXiv(feed)
 	    html +='<br /><span style="font-size:80%">[ Showing '+num_entries+' of '+feed.entries.length+' total entries]</span>\n';
     }
     html += '<br /><span id="authorid_hook" style="font-size:80%; padding-left:0px">[ This list is powered by an <a href="https://arxiv.org/a/'+arxiv_authorid + '">arXiv author id</a> and the <a href="https://arxiv.org/help/myarticles">myarticles</a> widget ]</span>';
-    //close the arxiv container div
     html += '</dl>\n</div>\n'
     document.getElementById('arxivfeed').innerHTML=html;
 }
