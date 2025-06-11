@@ -127,7 +127,7 @@ function makearXiv(feed)
     }
     for (x=0; x<num_entries; x++) {
 	    //Add the numeral in brackets with a space
-	    html += '<dt>['+(num_entries-1)+']&nbsp\n';
+	    html += '<dt>['+(num_entries-x)+']&nbsp\n';
 	    //add a span with the ref to the id in it
 	    html += '\t<span class="list-identifier" style="font-weight:bold"><a href="'+feed.entries[x].id+'" title="Abstract">'+feed.entries[x].id+'</a> [ ';
 	    //now add the formats listed in the dictioary at feed.entries[x].formats
