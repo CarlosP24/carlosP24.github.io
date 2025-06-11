@@ -7,14 +7,6 @@ author_profile: true
 {% include base_path %}
 
 ## Preprints
-<style>
-#arxivfeed {
-  width: 100vw;
-  max-width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  box-sizing: border-box;
-}
-</style>
 <div id="arxivfeed"></div>
 <script type="text/javascript">
 var arxiv_authorid = "paya_c_1";
