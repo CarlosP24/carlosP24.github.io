@@ -24,7 +24,7 @@ fetch('https://arxiv.org/a/paya_c_1.json')
     });
     html += '</ol>';
     document.getElementById('arxivfeed').innerHTML = html;
-  });
+  }); 
 </script>
 
 {% for post in site.publications reversed %}
