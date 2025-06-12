@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "CV"
+excerpt: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-Download my full CV [here](https://carlosp24.github.io/files/CV.pdf).
+Download my full CV [<span style="color:#6A994E;">here</span>](https://carlosp24.github.io/files/CV.pdf).
 
 | **Basic info**   |                                                                                                  |
 | --               | --                                                                                               |
@@ -59,3 +60,11 @@ Download my full CV [here](https://carlosp24.github.io/files/CV.pdf).
   * Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC.
   * Coordinators: María José Calderón and Leni Bascones.
   * Regular activites: monthly talks and demonstrations to high-school students.
+
+***
+
+## Languages
+
+* Spanish: Native
+* English: Full professional proficiency (C1)
+* French: Full professional proficiency (C1)
