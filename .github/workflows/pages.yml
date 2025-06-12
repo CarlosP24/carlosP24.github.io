@@ -60,14 +60,14 @@ jobs:
       - name: Set up TeX Live
         uses: teatimeguest/setup-texlive-action@v3
 
-      - name: Install Python dependencies
-        run: pip install -r cv/requirements.txt
 
       - name: Build CV PDF
+        shell: bash
         run: |
           cd cv
           python3 -m venv venv
           source venv/bin/activate
+          pip install -r cv/requirements.txt
           ./update_cv.sh \
             "https://api.zotero.org/users/13410489/publications/items?format=bibtex" \
             "js/talks.js" \
