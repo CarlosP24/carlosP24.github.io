@@ -1,0 +1,47 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]  # or your default branch
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 1. Run your custom generation scripts
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate JS from TSV
+        run: |
+          npm install
+          node scripts/generate_js_from_tsv.js
+      
+      - name: Download arXiv metadata JS
+        run: |
+          mkdir -p js
+          curl -sSL https://arxiv.org/a/paya_c_1.js -o js/publications.js
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add js/talks.js js/outreach.js
+          git add js/publications.js
+          git diff --cached --quiet || git commit -m "Update arXiv metadata"
+          git push
+
+      # 2. Build your site (if using Jekyll or another static site generator)
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+
+      # 3. Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
