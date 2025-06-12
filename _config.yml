@@ -126,6 +126,7 @@ include:
   - .htaccess
   - _pages
   - files 
+  - assets/css/custom.css
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -348,6 +349,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-# include:
-#   - assets/css/custom.css
