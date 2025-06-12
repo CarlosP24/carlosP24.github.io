@@ -70,8 +70,8 @@ jobs:
         run: tlmgr install latex-bin
 
       - name: Install LaTeX packages
-        run: tlmgr install geometry fancyhdr lastpage xcolor hyperref inputenc fontenc fontspec color sectsty biblatex
-
+        run: tlmgr install geometry fancyhdr lastpage xcolor hyperref fontspec sectsty biblatex
+        
       - name: Add TeX Live to PATH
         run: echo "/usr/local/texlive/2025/bin/x86_64-linux" >> $GITHUB_PATH
 
