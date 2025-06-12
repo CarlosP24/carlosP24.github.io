@@ -153,6 +153,8 @@ exclude:
   - vendor
   - db
   - scripts
+  - venv
+  - cv/venv
 keep_files:
   - .git
   - .svn

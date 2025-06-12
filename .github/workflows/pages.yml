@@ -71,7 +71,7 @@ jobs:
 
       - name: Install LaTeX packages
         run: tlmgr install geometry fancyhdr lastpage xcolor hyperref fontspec sectsty biblatex
-        
+
       - name: Add TeX Live to PATH
         run: echo "/usr/local/texlive/2025/bin/x86_64-linux" >> $GITHUB_PATH
 
@@ -91,6 +91,8 @@ jobs:
             "Payá, Carlos" \
             "MyCV.pdf"
           cp MyCV.pdf ../files/CV.pdf
+          cd ..
+          rm -rf cv/venv
 
       - name: Commit and push CV.pdf
         run: |
