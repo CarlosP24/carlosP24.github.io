@@ -72,6 +72,9 @@ jobs:
       - name: Install LaTeX packages
         run: tlmgr install geometry fancyhdr lastpage xcolor hyperref fontspec sectsty biblatex
 
+      - name: Install Erewhon font
+        run: tlmgr install erewhon
+
       - name: Add TeX Live to PATH
         run: echo "/usr/local/texlive/2025/bin/x86_64-linux" >> $GITHUB_PATH
 
