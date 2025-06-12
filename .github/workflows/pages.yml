@@ -67,7 +67,7 @@ jobs:
           cd cv
           python3 -m venv venv
           source venv/bin/activate
-          pip install -r cv/requirements.txt
+          pip install -r requirements.txt
           ./update_cv.sh \
             "https://api.zotero.org/users/13410489/publications/items?format=bibtex" \
             "js/talks.js" \
