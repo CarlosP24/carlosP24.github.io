@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Curriculum Vitae"
+title: "Brief vita"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -44,22 +44,6 @@ Download my full CV [here](https://carlosp24.github.io/files/CV.pdf).
   
 ***
 
-## Publications
-
-  <ul style="list-style: none;">{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-***
-
-## Conference contributions
-
-  <ul style="list-style: none;">{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
-***
-
 ## Teaching
 ### Supervised students
 
@@ -75,10 +59,3 @@ Download my full CV [here](https://carlosp24.github.io/files/CV.pdf).
   * Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC.
   * Coordinators: María José Calderón and Leni Bascones.
   * Regular activites: monthly talks and demonstrations to high-school students.
-
-### Events
-
-  <ul style="list-style: none;">{% for post in site.outreach reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
