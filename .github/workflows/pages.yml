@@ -69,6 +69,9 @@ jobs:
       - name: Install latex-bin
         run: tlmgr install latex-bin
 
+      - name: Install biber 
+        run: tlmgr install biber
+
       - name: Install LaTeX packages
         run: tlmgr install geometry fancyhdr lastpage xcolor hyperref fontspec sectsty biblatex
 
