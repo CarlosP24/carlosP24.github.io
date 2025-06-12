@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Outreach"
+excerpt: "Outreach activities and events"
 permalink: /outreach/
 author_profile: true
 ---

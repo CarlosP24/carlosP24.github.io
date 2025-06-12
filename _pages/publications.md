@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Publications"
+excerpt: "List of my publications"
 permalink: /publications/
 author_profile: true
 ---

@@ -1,26 +1,26 @@
 {% include base_path %}
 
 <div class="page__footer-follow">
-  <ul class="social-icons">
+  <ul class="social-icons" style="margin: 0; padding: 0; display: flex; gap: 8px; list-style: none;">
     {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+      <li style="margin: 0;"><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
     {% if site.twitter.username %}
-      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-square-x-twitter" aria-hidden="true"></i> X</a></li>
+      <li style="margin: 0;"><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-square-x-twitter" aria-hidden="true"></i> X</a></li>
     {% endif %}
     {% if site.facebook.username %}
-      <li><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+      <li style="margin: 0;"><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
     {% endif %}
     {% if site.author.linkedin %}
-      <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+      <li style="margin: 0;"><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
     {% endif %}
     {% if site.author.github %}
-      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li style="margin: 0;"><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
     {% endif %}
     {% if site.author.bitbucket %}
-      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+      <li style="margin: 0;"><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
     {% endif %}
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} | {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> | <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a> Theme | <a href="/sitemap">Sitemap</a> | <a href="/terms">Privacy Policy</a></div>
