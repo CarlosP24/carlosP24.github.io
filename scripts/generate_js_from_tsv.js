@@ -18,12 +18,12 @@ function writeJsonp(filename, callbackName, data) {
 }
 
 // Talks
-const talksTsv = fs.readFileSync(path.join(__dirname, 'db', 'talks.tsv'), 'utf8');
+const talksTsv = fs.readFileSync(path.join(__dirname, '..', 'db', 'talks.tsv'), 'utf8');
 const talksData = tsvToJson(talksTsv);
 writeJsonp(path.join(__dirname, '..', 'js', 'talks.js'), 'talksFeed', talksData);
 
 // Outreach
-const outreachTsv = fs.readFileSync(path.join(__dirname, 'db', 'outreach.tsv'), 'utf8');
+const outreachTsv = fs.readFileSync(path.join(__dirname, '..', 'db', 'outreach.tsv'), 'utf8');
 const outreachData = tsvToJson(outreachTsv);
 writeJsonp(path.join(__dirname, '..', 'js', 'outreach.js'), 'outreachFeed', outreachData);
 
