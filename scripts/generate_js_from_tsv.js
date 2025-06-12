@@ -27,4 +27,14 @@ const outreachTsv = fs.readFileSync(path.join(__dirname, '..', 'db', 'outreach.t
 const outreachData = tsvToJson(outreachTsv);
 writeJsonp(path.join(__dirname, '..', 'js', 'outreach.js'), 'outreachFeed', outreachData);
 
-console.log('talks.js and outreach.js generated.');
+// Awards
+const awardsTsv = fs.readFileSync(path.join(__dirname, '..', 'db', 'awards.tsv'), 'utf8');
+const awardsData = tsvToJson(awardsTsv);
+writeJsonp(path.join(__dirname, '..', 'js', 'awards.js'), 'awardsFeed', awardsData);
+
+// Funding
+const fundingTsv = fs.readFileSync(path.join(__dirname, '..', 'db', 'funding.tsv'), 'utf8');
+const fundingData = tsvToJson(fundingTsv);
+writeJsonp(path.join(__dirname, '..', 'js', 'funding.js'), 'fundingFeed', fundingData);
+
+console.log('talks.js, outreach.js, awards.js, and funding.js generated.');
