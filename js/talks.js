@@ -1,0 +1,172 @@
+talksFeed({
+  "entries": [
+    {
+      "title": "Emergence of Quantum Phases in Novel Materials",
+      "type": "Attended",
+      "url_slug": "Emergence 2021",
+      "venue": "Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC",
+      "date": "September 2021",
+      "location": "Madrid, Spain",
+      "talk_url": "https://wp.icmm.csic.es/emergence/",
+      "description": "Graduate Summer School focused on the effects of interactions and topology in materials and low-dimensional systems.",
+      "pdf_url": "",
+      "cont_title": ""
+    },
+    {
+      "title": "Frontiers in Condensed Matter Physics",
+      "type": "Poster",
+      "url_slug": "QDev 2022",
+      "venue": "Niels Bohr Institute, University of Copenhagen",
+      "date": "July 2022",
+      "location": "Copenhagen, Denmark",
+      "talk_url": "https://qdev.nbi.ku.dk/summerschool/qdevnbia-summer-school-2022/",
+      "description": "Graduate Summer School that covers selected topics from the frontier of condensed matter, selected by high-profile invited teachers based on their ongoing research.",
+      "pdf_url": "https://carlosp24.github.io/files/Poster2023_04.pdf",
+      "cont_title": "Theory of Caroli-de Gennes-Matricon analogs in full-shell hybrid nanowires"
+    },
+    {
+      "title": "YouMat2023",
+      "type": "Poster",
+      "url_slug": "YouMat 2023",
+      "venue": "Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC",
+      "date": "May 2023",
+      "location": "Madrid, Spain",
+      "talk_url": "https://www.icmm.csic.es/es/icmm/i-seminario-de-jovenes-investigadores-en-materiales-youmat23",
+      "description": "First Seminar for young Materials Researchers at ICMM.",
+      "pdf_url": "https://carlosp24.github.io/files/Poster2023_04.pdf",
+      "cont_title": "Theory of Caroli-de Gennes-Matricon analogs in full-shell hybrid nanowires"
+    },
+    {
+      "title": "QuantumMatter 2023",
+      "type": "Poster",
+      "url_slug": "QuantumMatter 2023",
+      "venue": "Phantoms Foundation",
+      "date": "May 2023",
+      "location": "Madrid, Spain",
+      "talk_url": "https://www.quantumconf.eu/2023/",
+      "description": "International Conference aiming to gather the various communities engaged in the science and technologies of quantum information and quantum matter.",
+      "pdf_url": "https://carlosp24.github.io/files/Poster2023_04.pdf",
+      "cont_title": "Theory of Caroli-de Gennes-Matricon analogs in full-shell hybrid nanowires"
+    },
+    {
+      "title": "Bound States in Superconducting Nanodevices",
+      "type": "Poster",
+      "url_slug": "Bound States 2023",
+      "venue": "TopSquad and AndQC collaborations",
+      "date": "June 2023",
+      "location": "Budapest, Hungary",
+      "talk_url": "https://www.boundstates2023.eu/",
+      "description": "Workshop on Andreev and Majorana bound states in nanoscale solid-state devices.",
+      "pdf_url": "https://carlosp24.github.io/files/Poster2023_04.pdf",
+      "cont_title": "Theory of Caroli-de Gennes-Matricon analogs in full-shell hybrid nanowires"
+    },
+    {
+      "title": "Emergence of Quantum Phases in Novel Materials",
+      "type": "Poster",
+      "url_slug": "Emergence 2023",
+      "venue": "Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC",
+      "date": "September 2023",
+      "location": "Madrid, Spain",
+      "talk_url": "https://wp.icmm.csic.es/emergence/",
+      "description": "Graduate Summer School focused on the effects of interactions and topology in materials and low-dimensional systems.",
+      "pdf_url": "https://carlosp24.github.io/files/Poster2023_09.pdf",
+      "cont_title": "Majorana zero modes in full-shell hybrid nanowires"
+    },
+    {
+      "title": "Workshop on Superconductor-Semiconductor Hybrids",
+      "type": "Attended",
+      "url_slug": "Copenhagen 2024",
+      "venue": "Niels Bohr Institute, University of Copenhagen",
+      "date": "March 2024",
+      "location": "Copenhagen, Denmark",
+      "talk_url": "https://qdev.nbi.ku.dk/",
+      "description": "Workshop sponsored by the ERC Synergy grant NONLOCAL.",
+      "pdf_url": "",
+      "cont_title": ""
+    },
+    {
+      "title": "European School on Superconductivity and Magnetism in Quantum Materials",
+      "type": "Poster",
+      "url_slug": "SuperQmap 2024",
+      "venue": "SuperQmap COST action",
+      "date": "April 2024",
+      "location": "Gandía, Spain",
+      "talk_url": "https://superqumap.eu/european-school-on-superconductivity-and-magnetism-in-quantum-materials/",
+      "description": "Interdisciplinary Graduate School on the foundations and latest depelopments of superconductivity and magnetism in quantum materials, both theoretical and experimental.",
+      "pdf_url": "https://carlosp24.github.io/files/Poster2024_04.pdf",
+      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires"
+    },
+    {
+      "title": "Quantum matter for Quantum Technologies Workshop",
+      "type": "Poster",
+      "url_slug": "Spice 2024",
+      "venue": "SPICE",
+      "date": "May 2024",
+      "location": "Mainz, Germany",
+      "talk_url": "https://www.spice.uni-mainz.de/qmqt-home/",
+      "description": "",
+      "pdf_url": "https://carlosp24.github.io/files/Poster2024_04.pdf",
+      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires"
+    },
+    {
+      "title": "Condensed Matter PhD Program Anual Meeting",
+      "type": "Contributed",
+      "url_slug": "PhD Meeting 2024",
+      "venue": "Facultad de Ciencias, Universidad Autónoma de Madrid (UAM)",
+      "date": "May 2024",
+      "location": "Madrid, Spain",
+      "talk_url": "http://doctorate-nanobio-uam.es/",
+      "description": "Anual Condensed Matter Physics PhD Program meeting for PhD candidates in the topic at UAM",
+      "pdf_url": "https://carlosp24.github.io/files/talk_phenomenology_202405.pdf",
+      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires"
+    },
+    {
+      "title": "QTYR24",
+      "type": "Contributed",
+      "url_slug": "QTYR 2024",
+      "venue": "PhD and Young Scientists in Quantum Technologies Network (PYSQT)",
+      "date": "July 2024",
+      "location": "Madrid, Spain",
+      "talk_url": "https://www.benasque.org/2024qtyr/",
+      "description": "QTYR24, the Quantum Technologies for Young Researchers workshop, is a conference designed specifically for scientists in the early stages of their careers working in various branches of Quantum Science.",
+      "pdf_url": "https://carlosp24.github.io/files/talk_phenomenology_qtyr24.pdf",
+      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires"
+    },
+    {
+      "title": "Quantum Designer 2024",
+      "type": "Poster",
+      "url_slug": "Quantum Designer 2024",
+      "venue": "Donostia International Physics Center",
+      "date": "July 2024",
+      "location": "San Sebastián, Spain",
+      "talk_url": "https://qdp2024.dipc.org/",
+      "description": "4th International Workshop on the most recent advances in material systems designed for studying the most intriguing physical phenomena at the nanoscale.",
+      "pdf_url": "https://carlosp24.github.io/files/Poster2024_04.pdf",
+      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires"
+    },
+    {
+      "title": "APS Global Physics Summit 2025",
+      "type": "Contributed",
+      "url_slug": "March Meeting 2025",
+      "venue": "American Physical Society",
+      "date": "March 2025",
+      "location": "Anaheim, CA, US",
+      "talk_url": "https://summit.aps.org/events/MAR-J41/2",
+      "description": "Joint March Meeting and April Meeting",
+      "pdf_url": "https://carlosp24.github.io/files/talk_Josephson_MM25.pdf",
+      "cont_title": "Josephson effect and critical currents in topological full-shell hybrid nanowires"
+    },
+    {
+      "title": "GRC on Hybrid Superconductor-Semiconductor Devices",
+      "type": "Poster",
+      "url_slug": "GRC Hybrids 2025",
+      "venue": "Gordon Research Conferences",
+      "date": "April 2025",
+      "location": "Les Diablerets, Switzerland",
+      "talk_url": "https://www.grc.org/hybrid-superconductor-semiconductor-devices-conference/2025/",
+      "description": "On the latest advances in hybrid superconductor-semiconductor technologies",
+      "pdf_url": "https://carlosp24.github.io/files/Poster2025_04.pdf",
+      "cont_title": "Josephson effect in topological full-shell hybrid nanowires"
+    }
+  ]
+});
