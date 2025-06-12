@@ -5,6 +5,15 @@ on:
     branches: [ main ]  # or your default branch
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
