@@ -60,6 +60,8 @@ jobs:
       - name: Set up TeX Live
         uses: teatimeguest/setup-texlive-action@v3
 
+      - name: Install latexmk
+        run: tlmgr install latexmk
 
       - name: Build CV PDF
         shell: bash
