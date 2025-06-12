@@ -60,6 +60,9 @@ jobs:
       - name: Set up TeX Live
         uses: teatimeguest/setup-texlive-action@v3
 
+      - name: Update TeX Live
+        run: tlmgr update --self --all
+
       - name: Install lualatex
         run: tlmgr install luatex
 
@@ -68,6 +71,9 @@ jobs:
 
       - name: Install latexmk
         run: tlmgr install latexmk
+
+      - name: Add TeX Live to PATH
+        run: echo "/usr/local/texlive/2025/bin/x86_64-linux" >> $GITHUB_PATH
 
       - name: Build CV PDF
         shell: bash
