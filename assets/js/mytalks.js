@@ -48,6 +48,12 @@ function makeTalks(feed) {
         { name: "Attended Conferences/Workshops", entries: attended }
     ];
 
+    // Reverse each category for chronological order (latest first in talks.js, so reverse for earliest first)
+    attended.reverse();
+    poster.reverse();
+    contributed.reverse();
+    invited.reverse();
+
     // Single global counter
     var total = invited.length + contributed.length + poster.length + attended.length;
     var counter = total;
@@ -70,8 +76,8 @@ function makeTalks(feed) {
 
         // Venue, date, location
         var details = [];
-        if (entry.venue) details.push(htmlFix(entry.venue));
         if (entry.date) details.push(htmlFix(entry.date));
+        if (entry.venue) details.push(htmlFix(entry.venue));
         if (entry.location) details.push(htmlFix(entry.location));
         if (details.length > 0) {
             html += '<div class="list-journal-ref" style="font-weight:normal;font-size:100%;text-decoration:none;">' + details.join(' — ') + '</div>\n';
@@ -88,10 +94,10 @@ function makeTalks(feed) {
             if (entry.pdf_url) {
             html += ' <a href="' + entry.pdf_url + '" target="_blank" style="color:#BC4749;text-decoration:none;">[PDF]</a>';
             if (entry.references) {
-                html += ' <a href="/' + entry.references + '" style="color:#386641;text-decoration:none;">[references]</a>';
+                html += ' <a href="/' + entry.references + '" style="color:#011936;text-decoration:none;">[references]</a>';
             }
             } else if (entry.references) {
-            html += ' <a href="/' + entry.references + '" style="color:#386641;text-decoration:none;">[references]</a>';
+            html += ' <a href="/' + entry.references + '" style="color:#011936;text-decoration:none;">[references]</a>';
             }
             html += '</div>\n';
         } else if (entry.pdf_url) {
@@ -99,13 +105,13 @@ function makeTalks(feed) {
             html += '<div class="list-pdf" style="font-weight:normal;font-size:100%;margin-top:0.2em;">';
             html += '<a href="' + entry.pdf_url + '" target="_blank" style="color:#BC4749;text-decoration:none;">[PDF]</a>';
             if (entry.references) {
-            html += ' <a href="/' + entry.references + '" style="color:#386641;text-decoration:none;">[references]</a>';
+            html += ' <a href="/' + entry.references + '" style="color:#011936;text-decoration:none;">[references]</a>';
             }
             html += '</div>\n';
         } else if (entry.references) {
             // If only references exist
             html += '<div class="list-references" style="font-weight:normal;font-size:100%;margin-top:0.2em;">';
-            html += '<a href="/' + entry.references + '" style="color:#386641;text-decoration:none;">[references]</a>';
+            html += '<a href="/' + entry.references + '" style="color:#011936;text-decoration:none;">[references]</a>';
             html += '</div>\n';
         }
 
