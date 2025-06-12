@@ -70,10 +70,10 @@ jobs:
           pip install -r requirements.txt
           ./update_cv.sh \
             "https://api.zotero.org/users/13410489/publications/items?format=bibtex" \
-            "js/talks.js" \
-            "js/outreach.js" \
-            "js/funding.js" \
-            "js/awards.js" \
+            "../js/talks.js" \
+            "../js/outreach.js" \
+            "../js/funding.js" \
+            "../js/awards.js" \
             "Payá, Carlos" \
             "MyCV.pdf"
           cp MyCV.pdf ../files/CV.pdf
