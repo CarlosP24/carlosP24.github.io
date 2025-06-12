@@ -48,6 +48,44 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
+      - name: Clone CV repo
+        run: |
+          git clone https://github.com/CarlosP24/cv.git cv
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up TeX Live
+        uses: teatimeguest/setup-texlive-action@v3
+
+      - name: Install Python dependencies
+        run: pip install -r cv/requirements.txt
+
+      - name: Build CV PDF
+        run: |
+          cd cv
+          python3 -m venv venv
+          source venv/bin/activate
+          ./update_cv.sh \
+            "https://api.zotero.org/users/13410489/publications/items?format=bibtex" \
+            "js/talks.js" \
+            "js/outreach.js" \
+            "js/funding.js" \
+            "js/awards.js" \
+            "Payá, Carlos" \
+            "MyCV.pdf"
+          cp MyCV.pdf ../files/CV.pdf
+
+      - name: Commit and push CV.pdf
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add files/CV.pdf
+          git commit -m "Update CV.pdf from CV repo"
+          git push
+
       # 2. Build your site (if using Jekyll or another static site generator)
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
