@@ -63,20 +63,15 @@ jobs:
       - name: Update TeX Live
         run: tlmgr update --self --all
 
-      - name: Install lualatex
-        run: tlmgr install luatex
-
-      - name: Install biber
-        run: tlmgr install biber
-
       - name: Install latexmk
         run: tlmgr install latexmk
 
       - name: Install latex-bin
         run: tlmgr install latex-bin
-      - name: Install geometry
-        run: tlmgr install geometry
-        
+
+      - name: Install LaTeX packages
+        run: tlmgr install geometry fancyhdr lastpage xcolor hyperref inputenc fontenc fontspec color sectsty biblatex
+
       - name: Add TeX Live to PATH
         run: echo "/usr/local/texlive/2025/bin/x86_64-linux" >> $GITHUB_PATH
 
