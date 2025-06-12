@@ -38,15 +38,6 @@ jobs:
           mkdir -p js
           curl -sSL https://arxiv.org/a/paya_c_1.js -o js/publications.js
       
-      - name: Commit and push if changed
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add js/talks.js js/outreach.js
-          git add js/publications.js
-          git diff --cached --quiet || git commit -m "Update arXiv metadata"
-          git push
-
       # 2. Build your site (if using Jekyll or another static site generator)
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
