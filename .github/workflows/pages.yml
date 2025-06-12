@@ -74,7 +74,9 @@ jobs:
 
       - name: Install latex-bin
         run: tlmgr install latex-bin
-
+      - name: Install geometry
+        run: tlmgr install geometry
+        
       - name: Add TeX Live to PATH
         run: echo "/usr/local/texlive/2025/bin/x86_64-linux" >> $GITHUB_PATH
 
