@@ -1,0 +1,26 @@
+name: Update arXiv Metadata
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  update-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download arXiv metadata JS
+        run: |
+          mkdir -p js
+          curl -sSL https://arxiv.org/a/paya_c_1.js -o js/publications.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add js/publications.js
+          git diff --cached --quiet || git commit -m "Update arXiv metadata"
+          git push
