@@ -10,7 +10,8 @@ talksFeed({
       "talk_url": "https://wp.icmm.csic.es/emergence/",
       "description": "Graduate Summer School focused on the effects of interactions and topology in materials and low-dimensional systems.",
       "pdf_url": "",
-      "cont_title": ""
+      "cont_title": "",
+      "references": ""
     },
     {
       "title": "Frontiers in Condensed Matter Physics",
@@ -22,7 +23,8 @@ talksFeed({
       "talk_url": "https://qdev.nbi.ku.dk/summerschool/qdevnbia-summer-school-2022/",
       "description": "Graduate Summer School that covers selected topics from the frontier of condensed matter, selected by high-profile invited teachers based on their ongoing research.",
       "pdf_url": "https://carlosp24.github.io/files/Poster2023_04.pdf",
-      "cont_title": "Theory of Caroli-de Gennes-Matricon analogs in full-shell hybrid nanowires"
+      "cont_title": "Theory of Caroli-de Gennes-Matricon analogs in full-shell hybrid nanowires",
+      "references": ""
     },
     {
       "title": "YouMat2023",
@@ -34,7 +36,8 @@ talksFeed({
       "talk_url": "https://www.icmm.csic.es/es/icmm/i-seminario-de-jovenes-investigadores-en-materiales-youmat23",
       "description": "First Seminar for young Materials Researchers at ICMM.",
       "pdf_url": "https://carlosp24.github.io/files/Poster2023_04.pdf",
-      "cont_title": "Theory of Caroli-de Gennes-Matricon analogs in full-shell hybrid nanowires"
+      "cont_title": "Theory of Caroli-de Gennes-Matricon analogs in full-shell hybrid nanowires",
+      "references": ""
     },
     {
       "title": "QuantumMatter 2023",
@@ -46,7 +49,8 @@ talksFeed({
       "talk_url": "https://www.quantumconf.eu/2023/",
       "description": "International Conference aiming to gather the various communities engaged in the science and technologies of quantum information and quantum matter.",
       "pdf_url": "https://carlosp24.github.io/files/Poster2023_04.pdf",
-      "cont_title": "Theory of Caroli-de Gennes-Matricon analogs in full-shell hybrid nanowires"
+      "cont_title": "Theory of Caroli-de Gennes-Matricon analogs in full-shell hybrid nanowires",
+      "references": ""
     },
     {
       "title": "Bound States in Superconducting Nanodevices",
@@ -58,7 +62,8 @@ talksFeed({
       "talk_url": "https://www.boundstates2023.eu/",
       "description": "Workshop on Andreev and Majorana bound states in nanoscale solid-state devices.",
       "pdf_url": "https://carlosp24.github.io/files/Poster2023_04.pdf",
-      "cont_title": "Theory of Caroli-de Gennes-Matricon analogs in full-shell hybrid nanowires"
+      "cont_title": "Theory of Caroli-de Gennes-Matricon analogs in full-shell hybrid nanowires",
+      "references": ""
     },
     {
       "title": "Emergence of Quantum Phases in Novel Materials",
@@ -70,7 +75,8 @@ talksFeed({
       "talk_url": "https://wp.icmm.csic.es/emergence/",
       "description": "Graduate Summer School focused on the effects of interactions and topology in materials and low-dimensional systems.",
       "pdf_url": "https://carlosp24.github.io/files/Poster2023_09.pdf",
-      "cont_title": "Majorana zero modes in full-shell hybrid nanowires"
+      "cont_title": "Majorana zero modes in full-shell hybrid nanowires",
+      "references": ""
     },
     {
       "title": "Workshop on Superconductor-Semiconductor Hybrids",
@@ -82,7 +88,8 @@ talksFeed({
       "talk_url": "https://qdev.nbi.ku.dk/",
       "description": "Workshop sponsored by the ERC Synergy grant NONLOCAL.",
       "pdf_url": "",
-      "cont_title": ""
+      "cont_title": "",
+      "references": ""
     },
     {
       "title": "European School on Superconductivity and Magnetism in Quantum Materials",
@@ -94,7 +101,8 @@ talksFeed({
       "talk_url": "https://superqumap.eu/european-school-on-superconductivity-and-magnetism-in-quantum-materials/",
       "description": "Interdisciplinary Graduate School on the foundations and latest depelopments of superconductivity and magnetism in quantum materials, both theoretical and experimental.",
       "pdf_url": "https://carlosp24.github.io/files/Poster2024_04.pdf",
-      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires"
+      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires",
+      "references": ""
     },
     {
       "title": "Quantum matter for Quantum Technologies Workshop",
@@ -106,7 +114,8 @@ talksFeed({
       "talk_url": "https://www.spice.uni-mainz.de/qmqt-home/",
       "description": "",
       "pdf_url": "https://carlosp24.github.io/files/Poster2024_04.pdf",
-      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires"
+      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires",
+      "references": ""
     },
     {
       "title": "Condensed Matter PhD Program Anual Meeting",
@@ -118,7 +127,8 @@ talksFeed({
       "talk_url": "http://doctorate-nanobio-uam.es/",
       "description": "Anual Condensed Matter Physics PhD Program meeting for PhD candidates in the topic at UAM",
       "pdf_url": "https://carlosp24.github.io/files/talk_phenomenology_202405.pdf",
-      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires"
+      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires",
+      "references": ""
     },
     {
       "title": "QTYR24",
@@ -130,7 +140,8 @@ talksFeed({
       "talk_url": "https://www.benasque.org/2024qtyr/",
       "description": "QTYR24, the Quantum Technologies for Young Researchers workshop, is a conference designed specifically for scientists in the early stages of their careers working in various branches of Quantum Science.",
       "pdf_url": "https://carlosp24.github.io/files/talk_phenomenology_qtyr24.pdf",
-      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires"
+      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires",
+      "references": ""
     },
     {
       "title": "Quantum Designer 2024",
@@ -142,7 +153,8 @@ talksFeed({
       "talk_url": "https://qdp2024.dipc.org/",
       "description": "4th International Workshop on the most recent advances in material systems designed for studying the most intriguing physical phenomena at the nanoscale.",
       "pdf_url": "https://carlosp24.github.io/files/Poster2024_04.pdf",
-      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires"
+      "cont_title": "Phenomenology of Majorana zero modes in full-shell hybrid nanowires",
+      "references": ""
     },
     {
       "title": "APS Global Physics Summit 2025",
@@ -154,7 +166,8 @@ talksFeed({
       "talk_url": "https://summit.aps.org/events/MAR-J41/2",
       "description": "Joint March Meeting and April Meeting",
       "pdf_url": "https://carlosp24.github.io/files/talk_Josephson_MM25.pdf",
-      "cont_title": "Josephson effect and critical currents in topological full-shell hybrid nanowires"
+      "cont_title": "Josephson effect and critical currents in topological full-shell hybrid nanowires",
+      "references": ""
     },
     {
       "title": "GRC on Hybrid Superconductor-Semiconductor Devices",
@@ -166,7 +179,8 @@ talksFeed({
       "talk_url": "https://www.grc.org/hybrid-superconductor-semiconductor-devices-conference/2025/",
       "description": "On the latest advances in hybrid superconductor-semiconductor technologies",
       "pdf_url": "https://carlosp24.github.io/files/Poster2025_04.pdf",
-      "cont_title": "Josephson effect in topological full-shell hybrid nanowires"
+      "cont_title": "Josephson effect in topological full-shell hybrid nanowires",
+      "references": "refs-poster-Josephson"
     }
   ]
 });
