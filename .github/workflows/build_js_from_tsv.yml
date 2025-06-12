@@ -19,7 +19,7 @@ jobs:
       - name: Generate JS files from TSV
         run: |
           npm install
-          node generate_js_from_tsv.js
+          node scripts/generate_js_from_tsv.js
 
       - name: Commit and push if changed
         run: |
