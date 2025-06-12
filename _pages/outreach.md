@@ -16,6 +16,5 @@ We also participate in scientific outreach events, such as the European Research
 
 ## Outreach events
 
-{% for post in site.outreach reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div id="outreachfeed"></div>
+<script type="text/javascript" src="{{ '/assets/js/myoutreach.js' | relative_url }}"></script>
