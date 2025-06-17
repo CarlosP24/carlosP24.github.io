@@ -59,6 +59,16 @@ outreachFeed({
       "location": "Madrid, Spain",
       "talk_url": "https://www.csic.es/es/actualidad-del-csic/el-csic-celebra-la-noche-europea-de-los-investigadores-y-las-investigadoras-con-mas-de-200-actividades",
       "description": "Event for primary school and high-school students in which we participated with our superconductivity workshop."
+    },
+    {
+      "title": "Feria Madrid es Ciencia 2025 (Madrid Science Fair)",
+      "type": "Workshopper",
+      "url_slug": "FeriaMadrid2025",
+      "venue": "Comunidad de Madrid",
+      "date": "March 2025",
+      "location": "Madrid, Spain",
+      "talk_url": "https://www.madrimasd.org/feriamadridesciencia/",
+      "description": "Scientific Fair for all ages students and general public. We offered a workhsop on superconductors, including both a talk and demonstrations."
     }
   ]
 });
