@@ -181,6 +181,19 @@ talksFeed({
       "pdf_url": "https://carlosp24.github.io/files/Poster2025_04.pdf",
       "cont_title": "Josephson effect in topological full-shell hybrid nanowires",
       "references": "refs-poster-Josephson"
+    },
+    {
+      "title": "Workshop on Superconductor-Semiconductor Hybrids",
+      "type": "Poster",
+      "url_slug": "Copenhagen 2025",
+      "venue": "Niels Bohr Institute, University of Copenhagen",
+      "date": "June 2025",
+      "location": "Copenhagen, Denmark",
+      "talk_url": "https://qdev.nbi.ku.dk/calender/workshop-on-superconductor-semiconductor-hybrids-2025/",
+      "description": "Workshop sponsored by the ERC Synergy grant NONLOCAL.",
+      "pdf_url": "https://carlosp24.github.io/files/Poster2025_04.pdf",
+      "cont_title": "Josephson effect in topological full-shell hybrid nanowires",
+      "references": "refs-poster-Josephson"
     }
   ]
 });
