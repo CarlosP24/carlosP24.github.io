@@ -60,7 +60,7 @@ jobs:
       - name: Set up TeX Live
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: CV.tex
+          root_file: cv/CV.tex
 
       - name: Update TeX Live
         run: tlmgr update --self --all
