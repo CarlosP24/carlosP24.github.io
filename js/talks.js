@@ -181,6 +181,32 @@ talksFeed({
       "pdf_url": "https://carlosp24.github.io/files/Poster2025_04.pdf",
       "cont_title": "Josephson effect in topological full-shell hybrid nanowires",
       "references": "refs-poster-Josephson"
+    },
+    {
+      "title": "Workshop on Superconductor-Semiconductor Hybrids",
+      "type": "Poster",
+      "url_slug": "Copenhagen 2025",
+      "venue": "Niels Bohr Institute, University of Copenhagen",
+      "date": "June 2025",
+      "location": "Copenhagen, Denmark",
+      "talk_url": "https://qdev.nbi.ku.dk/calender/workshop-on-superconductor-semiconductor-hybrids-2025/",
+      "description": "Workshop sponsored by the ERC Synergy grant NONLOCAL.",
+      "pdf_url": "https://carlosp24.github.io/files/Poster2025_04.pdf",
+      "cont_title": "Josephson effect in topological full-shell hybrid nanowires",
+      "references": "refs-poster-Josephson"
+    },
+    {
+      "title": "QTYR25",
+      "type": "Contributed",
+      "url_slug": "QTYR 2025",
+      "venue": "PhD and Young Scientsits in Quantum Technologies Network (PYSQT)",
+      "date": "July 2025",
+      "location": "Madrid, Spain",
+      "talk_url": "https://www.cuantica2025.es/qtyr-2025/",
+      "description": "QTYR24, the Quantum Technologies for Young Researchers workshop, is a conference designed specifically for scientists in the early stages of their careers working in various branches of Quantum Science.",
+      "pdf_url": "https://carlosp24.github.io/files/files/talk_valve_202507.pdf",
+      "cont_title": "Fluxoid valve effect in full-shell nanowire Josephson junctions",
+      "references": ""
     }
   ]
 });
