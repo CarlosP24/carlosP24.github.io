@@ -58,7 +58,9 @@ jobs:
           python-version: '3.12'
 
       - name: Set up TeX Live
-        uses: teatimeguest/setup-texlive-action@v3
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: CV.tex
 
       - name: Update TeX Live
         run: tlmgr update --self --all
