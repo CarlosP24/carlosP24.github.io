@@ -61,7 +61,9 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y texlive-base
-
+      - name: Set up TeX Live
+        run: tlmgr init-usertree
+        
       - name: Update TeX Live
         run: tlmgr update --self --all
 
