@@ -57,13 +57,19 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install TeX Live (basic)
+      - name: Install TeX Live 2025 (basic)
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive-base
+          sudo apt-get install -y wget perl tar xz-utils
+          wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
+          tar -xzf install-tl-unx.tar.gz
+          cd install-tl-*
+          sudo perl install-tl --profile=../install-tl.profile
+        # You may need to create an install-tl.profile file for unattended install, or adjust as needed.
+
       - name: Set up TeX Live
         run: tlmgr init-usertree
-        
+
       - name: Update TeX Live
         run: tlmgr update --self --all
 
