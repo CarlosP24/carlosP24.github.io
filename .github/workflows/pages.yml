@@ -64,10 +64,15 @@ jobs:
           wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
           tar -xzf install-tl-unx.tar.gz
           INSTALL_TL_DIR=$(find . -maxdepth 1 -type d -name "install-tl-*" | head -n 1)
+          sudo mkdir -p /usr/local/texlive
+          sudo chown $USER /usr/local/texlive
           cd "$INSTALL_TL_DIR"
-          sudo perl install-tl --profile=../install-tl.profile
+          perl install-tl --profile=../install-tl.profile
 
-      - name: Set up TeX Live
+      - name: Add TeX Live to PATH
+        run: echo "/usr/local/texlive/2025/bin/x86_64-linux" >> $GITHUB_PATH
+
+      - name: Set up TeX Live user tree
         run: tlmgr init-usertree
 
       - name: Update TeX Live
