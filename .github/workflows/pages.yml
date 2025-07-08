@@ -57,10 +57,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install TeX Live
+      - name: Install TeX Live (basic)
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive-full
+          sudo apt-get install -y texlive-base
 
       - name: Update TeX Live
         run: tlmgr update --self --all
