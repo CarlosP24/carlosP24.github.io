@@ -54,49 +54,8 @@ jobs:
 
       - name: Set up Python
         uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
 
-      - name: Install TeX Live 2025 (basic)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y wget perl tar xz-utils
-          wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
-          tar -xzf install-tl-unx.tar.gz
-          INSTALL_TL_DIR=$(find . -maxdepth 1 -type d -name "install-tl-*" | head -n 1)
-          sudo mkdir -p /usr/local/texlive
-          sudo chown $USER /usr/local/texlive
-          cd "$INSTALL_TL_DIR"
-          perl install-tl --profile=../install-tl.profile
-
-      - name: Add TeX Live to PATH
-        run: echo "/usr/local/texlive/2025/bin/x86_64-linux" >> $GITHUB_PATH
-
-      - name: Set up TeX Live user tree
-        run: tlmgr init-usertree
-
-      - name: Update TeX Live
-        run: tlmgr update --self --all
-
-      - name: Install latexmk
-        run: tlmgr install latexmk
-
-      - name: Install latex-bin
-        run: tlmgr install latex-bin
-
-      - name: Install biber 
-        run: tlmgr install biber
-
-      - name: Install LaTeX packages
-        run: tlmgr install geometry fancyhdr lastpage xcolor hyperref fontspec sectsty biblatex
-
-      - name: Install Erewhon font
-        run: tlmgr install erewhon
-
-      - name: Add TeX Live to PATH
-        run: echo "/usr/local/texlive/2025/bin/x86_64-linux" >> $GITHUB_PATH
-
-      - name: Build CV PDF
+      - name: Prepare CV
         shell: bash
         run: |
           cd cv
@@ -109,12 +68,18 @@ jobs:
             "../js/outreach.js" \
             "../js/funding.js" \
             "../js/awards.js" \
-            "Payá, Carlos" \
-            "MyCV.pdf"
-          cp MyCV.pdf ../files/CV.pdf
+            "Payá, Carlos" 
           cd ..
           rm -rf cv/venv
 
+
+      - uses: xu-cheng/latex-action@v4
+        with:
+          working_directory: cv
+          root_file: CV.tex
+          pre_compile: "tlmgr update --self && tlmgr update --all && tlmgr install latexmk latex-bin biber geometry fancyhdr lastpage xcolor hyperref fontspec sectsty biblatex erewhon"
+          post_compile: "cp CV.pdf ../files/CV.pdf"
+          
       - name: Commit and push CV.pdf
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
