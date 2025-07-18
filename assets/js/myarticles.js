@@ -100,9 +100,13 @@ function makearXiv(feed) {
 
         // Journal ref
         if (arxiv_includeJournalRef && entry.journal_ref && entry.journal_ref.length > 1) {
-            html += '<div class="list-journal-ref" style="font-weight:normal;font-size:100%;color:#6A994E;text-decoration:none;">';
+            html += '<div class="list-journal-ref" style="font-weight:normal;font-size:100%;color:#6A994E;text-decoration:none;display:flex;align-items:center;">';
             if (entry.doi && entry.doi.length > 0) {
                 html += '<a href="https://dx.doi.org/' + entry.doi + '" title="Journal" style="color:#6A994E;text-decoration:none;">' + entry.journal_ref + '</a>';
+                // Add Altmetric badge next to journal reference
+                html += '<div class="altmetric-embed" data-badge-popover="bottom" data-doi="' + entry.doi + '" style="display:inline-block;margin-left:10px;"></div>';
+                // Add Dimensions badge next to Altmetric badge
+                html += '<span class="__dimensions_badge_embed__" data-doi="' + entry.doi + '" data-style="small_rectangle" data-hide-zero-citations="true" data-legend="hover-right" style="display:inline-block;margin-left:10px;"></span>';
             } else {
                 html += entry.journal_ref;
             }
@@ -146,6 +150,8 @@ function makearXiv(feed) {
     for (var y = 0; y < entriesWithJournalRef.length; y++) {
         html += renderEntry(entriesWithJournalRef[y], num_entries - (entriesWithoutJournalRef.length + y));
     }
+
+
     html += '</dl>\n</div>\n';
     document.getElementById('arxivfeed').innerHTML = html;
 }
