@@ -154,4 +154,21 @@ function makearXiv(feed) {
 
     html += '</dl>\n</div>\n';
     document.getElementById('arxivfeed').innerHTML = html;
+    if (typeof _altmetric_embed_init !== 'undefined') {
+        _altmetric_embed_init();
+    }
+    if (typeof __dimensions_embed !== 'undefined') {
+        __dimensions_embed.addBadges();
+    }
+    setTimeout(function() {
+        // Altmetric refresh
+        if (window._altmetric_embed_init) {
+            window._altmetric_embed_init();
+        }
+        
+        // Dimensions refresh
+        if (window.__dimensions_embed && window.__dimensions_embed.addBadges) {
+            window.__dimensions_embed.addBadges();
+        }
+    }, 100);
 }
