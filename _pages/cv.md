@@ -2,10 +2,12 @@
 layout: archive
 title: "CV"
 excerpt: "Curriculum Vitae"
+description: "Download my full CV here."
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+tags: [cv, personal]
 ---
 
 {% include base_path %}

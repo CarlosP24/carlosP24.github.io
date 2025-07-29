@@ -2,8 +2,10 @@
 layout: archive
 title: "Outreach"
 excerpt: "Outreach activities and events"
+description: "Information about my outreach activities and events."
 permalink: /outreach/
 author_profile: true
+tags: [outreach, personal]
 ---
 ## Superconductivity Outreach Team
 

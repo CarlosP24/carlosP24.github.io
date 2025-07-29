@@ -1,9 +1,11 @@
 ---
 layout: archive
 title: "Publications"
+description: "List of my publications"
 excerpt: "List of my publications"
 permalink: /publications/
 author_profile: true
+tags: [publications, research]
 ---
 {% include base_path %}
 <div id="arxivfeed"></div>

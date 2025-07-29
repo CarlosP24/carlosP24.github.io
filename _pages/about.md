@@ -1,11 +1,14 @@
 ---
 permalink: /
 title: "Carlos Payá, PhD Candidate"
+descritption: "Carlos Payá, PhD Candidate at ICMM-CSIC, specializing in topological superconductors and quantum materials."
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+tags: [about, personal]
+image: "/images/Sketch.png"
 ---
 
 Hi! I'm Carlos, currently a PhD Candidate working with the [Quantum Dynamics of Materials (QUDYMA)](https://sites.google.com/view/qudyma-icmm) and [Quantum Materials for Quantum Technologies (Q4Q)](https://wp.icmm.csic.es/tqe/) groups at [Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC](https://www.icmm.csic.es/). My research is conducted under the supervision of [Elsa Prada](https://elsaprada.github.io/) and [Ramón Aguado](https://wp.icmm.csic.es/tqe/people/ramon-aguado/).
