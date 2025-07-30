@@ -15,6 +15,30 @@ body {
   font-family: $global-font-family;
   line-height: 1.5;
 
+  // background-image: url('/images/Sketch_light.svg');
+  // background-size: auto calc(100vh - 5em); /* Subtract header height from viewport height */
+  // background-repeat: no-repeat;
+  // background-position: right bottom; /* Position at bottom right instead of center */
+  // background-attachment: fixed; /* Stays in place when scrolling */
+
+  // /* Make the SVG subtle */
+  // position: relative;
+  
+  // &::before {
+  //   content: '';
+  //   position: fixed;
+  //   top: 5em; /* Start below the header */
+  //   right: 0;
+  //   width: 100%;
+  //   height: calc(100vh - 5em); /* Height minus header */
+  //   background-color: $light-gray;
+  //   mask: url('/images/Sketch_light.svg') no-repeat right center;
+  //   mask-size: auto 100%;
+  //   opacity: 0.05;
+  //   z-index: -1;
+  //   pointer-events: none;
+  // }
+
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
