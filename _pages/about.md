@@ -19,9 +19,11 @@ If you’d like to discuss my work or potential collaborations, please feel free
 
 
 ## Highlights
+### Latest preprint
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7379446154654007296" height="885" width="100%" style="max-width: 600px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-Our theory of Caroli-de Gennes-Matricon analogs in full-shell nanowires, published back in 2023 in [PRB](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.155423) has been demonstrated experimentally in our recent [PRL publication](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.206302). Read here Sole's excellent summary on this finding:
+### Latest publication
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7338244594913939457?collapsed=1" height="558" width="100%" style="max-width: 600px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7331389324178952192" height="759" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
-Check also our latest preprint, *Fluxoid Valve Effect in Full Shell Nanowire Josephson Junctions* in [arXiv](https://arxiv.org/abs/2504.16989) in which we propose a new type of supercurrent valve based on the different phase windings the full shell wires at each side of a Josephson can acquire; and our latest publication *Josephson Effect and Critical Currents in Trivial and Topological Full-Shell Hybrid Nanowires*, exploring the rich phenomenology of nanowire junctions in [PRB](https://journals.aps.org/prb/abstract/10.1103/8mzs-dx7h).
+### Highlighted Research
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7331389324178952192" height="759" width="100%" style="max-width: 600px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
