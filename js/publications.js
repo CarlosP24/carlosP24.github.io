@@ -1,6 +1,23 @@
 jsonarXivFeed({
    "entries" : [
       {
+         "authors" : "Carlos Payá, Oliver Solow, Elsa Prada, Ramón Aguado, Karsten Flensberg",
+         "categories" : [
+            "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+         ],
+         "comment" : "6 pages, 4 figures",
+         "formats" : {
+            "html" : "http://arxiv.org/abs/2510.00921v1",
+            "pdf" : "http://arxiv.org/pdf/2510.00921v1"
+         },
+         "id" : "http://arxiv.org/abs/2510.00921v1",
+         "published" : "2025-10-01T09:59:34-04:00",
+         "subject" : "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+         "summary" : "Open quantum systems governed by non-Hermitian effective Hamiltonians exhibit unique phenomena, such as the non-Hermitian skin effect, where eigenstates localize at system boundaries. We investigate this effect in a Rashba nanowire coupled to a ferromagnetic lead and demonstrate that it can be detected via non-local transport spectroscopy: while local conductance remains symmetric, the non-local conductance becomes non-reciprocal. We account for this behavior using both conventional transport arguments and the framework of non-Hermitian physics. Furthermore, we explain that exceptional points shift in parameter space when transitioning from periodic to open boundary conditions, a phenomenon observed in other non-Hermitian systems but so far not explained. Our results establish transport spectroscopy as a tool to probe non-Hermitian effects in open electronic systems.",
+         "title" : "Non-Hermitian Skin Effect and Electronic Nonlocal Transport",
+         "updated" : "2025-10-01T09:59:34-04:00"
+      },
+      {
          "authors" : "Carlos Payá, Ramón Aguado, Pablo San-Jose, Elsa Prada",
          "categories" : [
             "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
@@ -134,7 +151,7 @@ jsonarXivFeed({
       }
    ],
    "id" : "http://arxiv.org/a/paya_c_1",
-   "modified" : "2025-07-30T00:00:00-04:00",
+   "modified" : "2025-10-02T00:00:00-04:00",
    "title" : "Carlos Payá's articles on arXiv"
 }
 )
