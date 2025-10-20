@@ -23,7 +23,7 @@ If you’d like to discuss my work or potential collaborations, please feel free
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7379446154654007296" height="250" width="100%" style="max-width: 1800px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 ### Latest publication
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7338244594913939457" height="250" width="100%" style="max-width: 1800px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7384982725998559232" height="250" width="100%" style="max-width: 1800px" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 ### Highlighted Research
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7331389324178952192" height="250" width="100%" style="max-width: 1800px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
