@@ -1,6 +1,26 @@
 jsonarXivFeed({
    "entries" : [
       {
+         "authors" : "Carlos Payá, F. J. Matute-Cañadas, A. Levy Yeyati, Ramón Aguado, Pablo San-Jose, Elsa Prada",
+         "categories" : [
+            "Superconductivity (cond-mat.supr-con)",
+            "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+         ],
+         "comment" : "8 pages, 4 figures",
+         "doi" : "10.1103/sdmw-qwcn",
+         "formats" : {
+            "html" : "http://arxiv.org/abs/2504.16989v2",
+            "pdf" : "http://arxiv.org/pdf/2504.16989v2"
+         },
+         "id" : "http://arxiv.org/abs/2504.16989v2",
+         "journal_ref" : "Phys. Rev. B 112, 134520 (2025)",
+         "published" : "2025-04-23T14:00:01-04:00",
+         "subject" : "Superconductivity (cond-mat.supr-con)",
+         "summary" : "We introduce a new type of supercurrent valve based on full-shell nanowires. These hybrid wires consist of a semiconductor core fully wrapped in a thin superconductor shell and subjected to an axial magnetic field. Due to the tubular shape of the shell, the superconductor phase acquires an integer number $n$ of $2\\pi$ twists or \\textit{fluxoids} that increases in steps with applied flux. By connecting two such hybrid wires, forming a Josephson junction (JJ), a flux-modulated supercurrent develops. If the two superconducting sections of the JJ have different radii $R_1$ and $R_2$, they can develop equal or different fluxoid numbers $n_1,n_2$ depending on the field. If $n_1\\neq n_2$ the supercurrent is blocked, while it remains finite for $n_1=n_2$. This gives rise to a fluxoid valve effect controlled by the applied magnetic field or a gate voltage at the junction. We define a fluxoid-valve quality factor that is perfect for cylindrically symmetric systems and decreases as this symmetry is reduced. We further discuss the role of Majorana zero modes at the junction when the full-shell nanowires are in the topological superconducting regime.",
+         "title" : "Fluxoid valve effect in full-shell nanowire Josephson junctions",
+         "updated" : "2025-10-20T05:38:20-04:00"
+      },
+      {
          "authors" : "Carlos Payá, Oliver Solow, Elsa Prada, Ramón Aguado, Karsten Flensberg",
          "categories" : [
             "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
@@ -54,24 +74,6 @@ jsonarXivFeed({
          "summary" : "We report tunneling spectroscopy of Andreev subgap states in hybrid nanowires with a thin superconducting full-shell surrounding a semiconducting core. The combination of the quantized fluxoid of the shell and the Andreev reflection at the superconductor-semiconductor interface gives rise to analogs of Caroli-de Gennes-Matricon (CdGM) states found in Abrikosov vortices in type-II superconductors. Unlike in metallic superconductors, CdGM analogs in full-shell hybrid nanowires manifest as one-dimensional van Hove singularities with energy spacings comparable to the superconducting gap and independent of the Fermi energy, making them readily observable. Evolution of these analogs with axial magnetic field, skewed within the Little-Parks lobe structure, is consistent with theory and yields information about the radial distribution and angular momenta of the corresponding subbands.",
          "title" : "Caroli-de Gennes-Matricon Analogs in Full-Shell Hybrid Nanowires",
          "updated" : "2025-06-05T17:10:26-04:00"
-      },
-      {
-         "authors" : "Carlos Payá, F. J. Matute-Cañadas, A. Levy Yeyati, Ramón Aguado, Pablo San-Jose, Elsa Prada",
-         "categories" : [
-            "Superconductivity (cond-mat.supr-con)",
-            "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
-         ],
-         "comment" : "7 pages, 4 figures",
-         "formats" : {
-            "html" : "http://arxiv.org/abs/2504.16989v1",
-            "pdf" : "http://arxiv.org/pdf/2504.16989v1"
-         },
-         "id" : "http://arxiv.org/abs/2504.16989v1",
-         "published" : "2025-04-23T14:00:01-04:00",
-         "subject" : "Superconductivity (cond-mat.supr-con)",
-         "summary" : "We introduce a new type of supercurrent valve based on full-shell nanowires. These hybrid wires consist of a semiconductor core fully wrapped in a thin superconductor shell and subjected to an axial magnetic field. Due to the tubular shape of the shell, the superconductor phase acquires an integer number $n$ of $2\\pi$ twists or fluxoids that increases in steps with applied flux. By connecting two such hybrid wires, forming a Josephson junction (JJ), a flux-modulated supercurrent develops. If the two superconducting sections of the JJ have different radii $R_1$ and $R_2$, they can develop equal or different fluxoid numbers $n_1,n_2$ depending on the field. If $n_1\\neq n_2$ the supercurrent is blocked, while it remains finite for $n_1=n_2$. This gives rise to a fluxoid valve effect controlled by the applied magnetic field. We define a fluxoid-valve quality factor that is perfect for cylindrically symmetric systems and decreases as this symmetry is reduced. We further discuss the role of Majorana zero modes at the junction when the full shell-nanowires are in topological superconducting regime.",
-         "title" : "Fluxoid Valve Effect in Full-Shell Nanowire Josephson Junctions",
-         "updated" : "2025-04-23T14:00:01-04:00"
       },
       {
          "authors" : "Andrea Vezzosi, Carlos Payá, Paweł Wójcik, Andrea Bertoni, Guido Goldoni, Elsa Prada, Samuel D. Escribano",
@@ -151,7 +153,7 @@ jsonarXivFeed({
       }
    ],
    "id" : "http://arxiv.org/a/paya_c_1",
-   "modified" : "2025-10-20T00:00:00-04:00",
+   "modified" : "2025-10-21T00:00:00-04:00",
    "title" : "Carlos Payá's articles on arXiv"
 }
 )
