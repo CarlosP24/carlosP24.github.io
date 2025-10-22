@@ -69,6 +69,16 @@ outreachFeed({
       "location": "Madrid, Spain",
       "talk_url": "https://www.madrimasd.org/feriamadridesciencia/",
       "description": "Scientific Fair for all ages students and general public. We offered a workhsop on superconductors, including both a talk and demonstrations."
+    },
+    {
+      "title": "European Researchers' Night 2025",
+      "type": "Workshopper",
+      "url_slug": "ERN2025",
+      "venue": "CSIC",
+      "date": "September 2025",
+      "location": "Madrid, Spain",
+      "talk_url": "https://www.madrimasd.org/lanochedelosinvestigadores/",
+      "description": ""
     }
   ]
 });
