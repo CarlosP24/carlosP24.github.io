@@ -153,7 +153,7 @@ jsonarXivFeed({
       }
    ],
    "id" : "http://arxiv.org/a/paya_c_1",
-   "modified" : "2025-10-21T00:00:00-04:00",
+   "modified" : "2026-02-09T00:00:00-05:00",
    "title" : "Carlos Payá's articles on arXiv"
 }
 )

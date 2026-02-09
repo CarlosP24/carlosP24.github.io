@@ -180,7 +180,7 @@ talksFeed({
       "description": "On the latest advances in hybrid superconductor-semiconductor technologies",
       "pdf_url": "https://carlosp24.github.io/files/Poster2025_04.pdf",
       "cont_title": "Josephson effect in topological full-shell hybrid nanowires",
-      "references": "refs-poster-Josephson"
+      "references": "refs-josephson"
     },
     {
       "title": "Workshop on Superconductor-Semiconductor Hybrids",
@@ -193,7 +193,7 @@ talksFeed({
       "description": "Workshop sponsored by the ERC Synergy grant NONLOCAL.",
       "pdf_url": "https://carlosp24.github.io/files/Poster2025_04.pdf",
       "cont_title": "Josephson effect in topological full-shell hybrid nanowires",
-      "references": "refs-poster-Josephson"
+      "references": "refs-josephson"
     },
     {
       "title": "QTYR25",
@@ -219,7 +219,33 @@ talksFeed({
       "description": "This special edition of the workshop celebrates the Year of Quantum Science and Technology in the inspiring setting of San Sebastián. Participants will engage in discussions on recent advances in engineered quantum systems, from conventional and topological quantum phases to complex low-dimensional materials such as graphene-based structures. The program will also highlight progress in spin-based quantum computing, spintronics, and the exploration of topologically non-trivial states in hybrid superconducting systems.",
       "pdf_url": "https://carlosp24.github.io/files/Poster2025_04.pdf",
       "cont_title": "Josephson effect in topological full-shell hybrid nanowires",
-      "references": "refs-poster-Josephson"
+      "references": "refs-josephson"
+    },
+    {
+      "title": "International Workshop on Superconductor Semiconductor Hybrids",
+      "type": "Poster",
+      "url_slug": "IWSSH 2026",
+      "venue": "Institut Néel, CNRS",
+      "date": "February 2026",
+      "location": "Villard-de-Lans, France",
+      "talk_url": "https://iwssh.sciencesconf.org/",
+      "description": "Hybrid devices based on superconducting and semiconducting materials are attracting increasing interest in the field of quantum circuits, due to their potential to replace more conventional tunnel Josephson junction-based components. One of their main advantages lies in the ability to tune the junction parameters via an electrostatic gate.Recently, significant results have been achieved, both in fundamental research (Josephson diode effect, chiral superconducting current) and in quantum applications (Josephson amplifiers based on graphene or two-dimensional electron gases, gate-tunable superconducting qubits).The goal of this workshop is to bring together international experts in hybrid devices, recognized for their scientific contributions and pedagogical quality, to present their findings in a way that is accessible to the scientific community.",
+      "pdf_url": "https://carlosp24.github.io/files/Poster2026_02.pdf",
+      "cont_title": "Non-Hermitian Skin Effect and Electronic Nonlocal Transport",
+      "references": "refs-NHRashba"
+    },
+    {
+      "title": "International Workshop on Superconductor Semiconductor Hybrids",
+      "type": "Tutorial",
+      "url_slug": "IWSSH 2026",
+      "venue": "Institut Néel, CNRS",
+      "date": "February 2026",
+      "location": "Villard-de-Lans, France",
+      "talk_url": "https://iwssh.sciencesconf.org/",
+      "description": "Hybrid devices based on superconducting and semiconducting materials are attracting increasing interest in the field of quantum circuits, due to their potential to replace more conventional tunnel Josephson junction-based components. One of their main advantages lies in the ability to tune the junction parameters via an electrostatic gate.Recently, significant results have been achieved, both in fundamental research (Josephson diode effect, chiral superconducting current) and in quantum applications (Josephson amplifiers based on graphene or two-dimensional electron gases, gate-tunable superconducting qubits).The goal of this workshop is to bring together international experts in hybrid devices, recognized for their scientific contributions and pedagogical quality, to present their findings in a way that is accessible to the scientific community.",
+      "pdf_url": "https://carlosp24.github.io/files/talk2026_02.pdf",
+      "cont_title": "Realistic Modeling of 1D Hybrid Superconductors",
+      "references": "refs-Modeling"
     }
   ]
 });
