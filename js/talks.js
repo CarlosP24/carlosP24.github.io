@@ -237,7 +237,7 @@ talksFeed({
     {
       "title": "International Workshop on Superconductor Semiconductor Hybrids",
       "type": "Tutorial",
-      "url_slug": "IWSSH 2026",
+      "url_slug": "IWSSH 2026 Tutorial",
       "venue": "Institut Néel, CNRS",
       "date": "February 2026",
       "location": "Villard-de-Lans, France",
