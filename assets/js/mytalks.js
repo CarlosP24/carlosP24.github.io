@@ -31,18 +31,20 @@ function makeTalks(feed) {
     html += '<dl style="margin:0;">\n';
 
     // Categorize talks by type
-    var attended = [], poster = [], contributed = [], invited = [];
+    var attended = [], poster = [], contributed = [], invited = [], tutorial = [];
     feed.entries.forEach(function(entry) {
         var type = (entry.type || '').toLowerCase();
         if (type === 'attended') attended.push(entry);
         else if (type === 'poster') poster.push(entry);
         else if (type === 'contributed') contributed.push(entry);
         else if (type === 'invited') invited.push(entry);
+        else if (type === 'tutorial') tutorial.push(entry);
     });
 
     // Prepare ordered categories
     var categories = [
         { name: "Invited Talks", entries: invited },
+        { name: "Tutorials", entries: tutorial },
         { name: "Contributed Talks", entries: contributed },
         { name: "Poster Presentations", entries: poster },
         { name: "Attended Conferences/Workshops", entries: attended }
@@ -53,9 +55,10 @@ function makeTalks(feed) {
     poster.reverse();
     contributed.reverse();
     invited.reverse();
+    tutorial.reverse();
 
     // Single global counter
-    var total = invited.length + contributed.length + poster.length + attended.length;
+    var total = invited.length + tutorial.length + contributed.length + poster.length + attended.length;
     var counter = total;
 
     function renderTalk(entry, counter) {
