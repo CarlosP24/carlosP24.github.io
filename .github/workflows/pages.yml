@@ -78,7 +78,7 @@ jobs:
           working_directory: cv
           root_file: CV.tex
           latexmk_use_lualatex: true
-          pre_compile: "tlmgr update --self && tlmgr update --all && tlmgr install latexmk latex-bin biber geometry fancyhdr lastpage xcolor hyperref fontspec sectsty biblatex erewhon"
+          pre_compile: "tlmgr update --self && tlmgr install latexmk latex-bin biber geometry fancyhdr lastpage xcolor hyperref fontspec sectsty biblatex erewhon"
           post_compile: "cp CV.pdf ../files/CV.pdf"
           
       - name: Commit and push CV.pdf
