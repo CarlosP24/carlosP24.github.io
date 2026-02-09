@@ -97,10 +97,10 @@ function makeTalks(feed) {
             if (entry.pdf_url) {
             html += ' <a href="' + entry.pdf_url + '" target="_blank" style="color:#BC4749;text-decoration:none;">[PDF]</a>';
             if (entry.references) {
-                html += ' <a href="/' + entry.references + '" style="color:#05668D;text-decoration:none;">[references]</a>';
+                html += ' <a href="/references/' + entry.references + '" style="color:#05668D;text-decoration:none;">[references]</a>';
             }
             } else if (entry.references) {
-            html += ' <a href="/' + entry.references + '" style="color:#05668D;text-decoration:none;">[references]</a>';
+            html += ' <a href="/references/' + entry.references + '" style="color:#05668D;text-decoration:none;">[references]</a>';
             }
             html += '</div>\n';
         } else if (entry.pdf_url) {
@@ -108,13 +108,13 @@ function makeTalks(feed) {
             html += '<div class="list-pdf" style="font-weight:normal;font-size:100%;margin-top:0.2em;">';
             html += '<a href="' + entry.pdf_url + '" target="_blank" style="color:#BC4749;text-decoration:none;">[PDF]</a>';
             if (entry.references) {
-            html += ' <a href="/' + entry.references + '" style="color:#05668D;text-decoration:none;">[references]</a>';
+            html += ' <a href="/references/' + entry.references + '" style="color:#05668D;text-decoration:none;">[references]</a>';
             }
             html += '</div>\n';
         } else if (entry.references) {
             // If only references exist
             html += '<div class="list-references" style="font-weight:normal;font-size:100%;margin-top:0.2em;">';
-            html += '<a href="/' + entry.references + '" style="color:#05668D;text-decoration:none;">[references]</a>';
+            html += '<a href="/references/' + entry.references + '" style="color:#05668D;text-decoration:none;">[references]</a>';
             html += '</div>\n';
         }
 
