@@ -138,12 +138,14 @@ function makearXiv(feed) {
         return html;
     }
 
-    // Render entries without journal_ref first
-    html += '<div style="font-weight:bold; font-size:110%; margin-bottom:0.5em;">Preprints:</div>\n';
-    for (x = 0; x < entriesWithoutJournalRef.length; x++) {
-        html += renderEntry(entriesWithoutJournalRef[x], num_entries - x);
+    // Render entries without journal_ref first (only if there are any)
+    if (entriesWithoutJournalRef.length > 0) {
+        html += '<div style="font-weight:bold; font-size:110%; margin-bottom:0.5em;">Preprints:</div>\n';
+        for (x = 0; x < entriesWithoutJournalRef.length; x++) {
+            html += renderEntry(entriesWithoutJournalRef[x], num_entries - x);
+        }
+        html += '<hr style="border:0; border-top:2px solid #F2F2F3; margin:1em 0;">\n';
     }
-    html += '<hr style="border:0; border-top:2px solid #F2F2F3; margin:1em 0;">\n';
 
     // Then render entries with journal_ref
     html += '<div style="font-weight:bold; font-size:110%; margin-top:1em; margin-bottom:0.5em;">Journals:</div>\n';

@@ -1,6 +1,25 @@
 jsonarXivFeed({
    "entries" : [
       {
+         "authors" : "Carlos Payá, Oliver Solow, Elsa Prada, Ramón Aguado, Karsten Flensberg",
+         "categories" : [
+            "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+         ],
+         "comment" : "7 pages, 4 figures, Final version",
+         "doi" : "10.1103/9jdy-b418",
+         "formats" : {
+            "html" : "http://arxiv.org/abs/2510.00921v2",
+            "pdf" : "http://arxiv.org/pdf/2510.00921v2"
+         },
+         "id" : "http://arxiv.org/abs/2510.00921v2",
+         "journal_ref" : "Phys. Rev. B 113, L161405 (2026)",
+         "published" : "2025-10-01T09:59:34-04:00",
+         "subject" : "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+         "summary" : "Open quantum systems governed by non-Hermitian effective Hamiltonians exhibit unique phenomena, such as the non-Hermitian skin effect, where eigenstates localize at system boundaries. We investigate this effect in a Rashba nanowire coupled to a ferromagnetic lead and demonstrate that it can be detected via nonlocal transport spectroscopy: while local conductance remains symmetric, the nonlocal conductance becomes nonreciprocal. We account for this behavior using both conventional transport arguments and the framework of non-Hermitian physics. Furthermore, we explain that exceptional points shift in parameter space when transitioning from periodic to open boundary conditions, a phenomenon observed in other non-Hermitian systems but so far not explained. Our results establish transport spectroscopy as a tool to probe non-Hermitian effects in open electronic systems.",
+         "title" : "Non-Hermitian skin effect and electronic nonlocal transport",
+         "updated" : "2026-04-12T05:34:17-04:00"
+      },
+      {
          "authors" : "Carlos Payá, F. J. Matute-Cañadas, A. Levy Yeyati, Ramón Aguado, Pablo San-Jose, Elsa Prada",
          "categories" : [
             "Superconductivity (cond-mat.supr-con)",
@@ -19,23 +38,6 @@ jsonarXivFeed({
          "summary" : "We introduce a new type of supercurrent valve based on full-shell nanowires. These hybrid wires consist of a semiconductor core fully wrapped in a thin superconductor shell and subjected to an axial magnetic field. Due to the tubular shape of the shell, the superconductor phase acquires an integer number $n$ of $2\\pi$ twists or \\textit{fluxoids} that increases in steps with applied flux. By connecting two such hybrid wires, forming a Josephson junction (JJ), a flux-modulated supercurrent develops. If the two superconducting sections of the JJ have different radii $R_1$ and $R_2$, they can develop equal or different fluxoid numbers $n_1,n_2$ depending on the field. If $n_1\\neq n_2$ the supercurrent is blocked, while it remains finite for $n_1=n_2$. This gives rise to a fluxoid valve effect controlled by the applied magnetic field or a gate voltage at the junction. We define a fluxoid-valve quality factor that is perfect for cylindrically symmetric systems and decreases as this symmetry is reduced. We further discuss the role of Majorana zero modes at the junction when the full-shell nanowires are in the topological superconducting regime.",
          "title" : "Fluxoid valve effect in full-shell nanowire Josephson junctions",
          "updated" : "2025-10-20T05:38:20-04:00"
-      },
-      {
-         "authors" : "Carlos Payá, Oliver Solow, Elsa Prada, Ramón Aguado, Karsten Flensberg",
-         "categories" : [
-            "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
-         ],
-         "comment" : "6 pages, 4 figures",
-         "formats" : {
-            "html" : "http://arxiv.org/abs/2510.00921v1",
-            "pdf" : "http://arxiv.org/pdf/2510.00921v1"
-         },
-         "id" : "http://arxiv.org/abs/2510.00921v1",
-         "published" : "2025-10-01T09:59:34-04:00",
-         "subject" : "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
-         "summary" : "Open quantum systems governed by non-Hermitian effective Hamiltonians exhibit unique phenomena, such as the non-Hermitian skin effect, where eigenstates localize at system boundaries. We investigate this effect in a Rashba nanowire coupled to a ferromagnetic lead and demonstrate that it can be detected via non-local transport spectroscopy: while local conductance remains symmetric, the non-local conductance becomes non-reciprocal. We account for this behavior using both conventional transport arguments and the framework of non-Hermitian physics. Furthermore, we explain that exceptional points shift in parameter space when transitioning from periodic to open boundary conditions, a phenomenon observed in other non-Hermitian systems but so far not explained. Our results establish transport spectroscopy as a tool to probe non-Hermitian effects in open electronic systems.",
-         "title" : "Non-Hermitian Skin Effect and Electronic Nonlocal Transport",
-         "updated" : "2025-10-01T09:59:34-04:00"
       },
       {
          "authors" : "Carlos Payá, Ramón Aguado, Pablo San-Jose, Elsa Prada",
@@ -153,7 +155,7 @@ jsonarXivFeed({
       }
    ],
    "id" : "http://arxiv.org/a/paya_c_1",
-   "modified" : "2026-02-09T00:00:00-05:00",
+   "modified" : "2026-04-14T00:00:00-04:00",
    "title" : "Carlos Payá's articles on arXiv"
 }
 )
