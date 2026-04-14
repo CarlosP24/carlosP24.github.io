@@ -79,6 +79,16 @@ outreachFeed({
       "location": "Madrid, Spain",
       "talk_url": "https://www.madrimasd.org/lanochedelosinvestigadores/",
       "description": ""
+    },
+    {
+      "title": "Feria Madrid es Ciencia 2026 (Madrid Science Fair)",
+      "type": "Workshopper",
+      "url_slug": "FeriaMadrid2026",
+      "venue": "Comunidad de Madrid",
+      "date": "March 2026",
+      "location": "Madrid, Spain",
+      "talk_url": "https://www.madrimasd.org/feriamadridesciencia/",
+      "description": "Event for primary school and high-school students in which we participated with our superconductivity workshop."
     }
   ]
 });
