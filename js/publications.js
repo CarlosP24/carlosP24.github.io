@@ -1,6 +1,23 @@
 jsonarXivFeed({
    "entries" : [
       {
+         "authors" : "Carlos Payá, César Robles, Pablo San-Jose, Elsa Prada",
+         "categories" : [
+            "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+         ],
+         "comment" : "11 pages, 4 figures, 6 appendices",
+         "formats" : {
+            "html" : "http://arxiv.org/abs/2604.24858v1",
+            "pdf" : "http://arxiv.org/pdf/2604.24858v1"
+         },
+         "id" : "http://arxiv.org/abs/2604.24858v1",
+         "published" : "2026-04-27T14:00:05-04:00",
+         "subject" : "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+         "summary" : "Tunneling spectroscopy cannot be used as an unambiguous detection tool for Majorana zero modes (MZMs) in conventional partial-shell nanowires. The presence of smooth confinement at the end of the hybrid wire (among other sources of disorder) can create exponentially pinned zero-energy states, called quasi-MZMs, that mimic all local signatures of MZMs but lack topological protection. We find that this ambiguity in MZM detection does not occur in full-shell hybrid nanowires, an alternative nanowire design where a superconducting shell fully surrounds the semiconductor core. Acting as a synthetic vortex, a full-shell hybrid nanowire hosts Caroli-de Gennes-Matricon analog states. In the presence of smooth confinement, these states create a topologically trivial skin at the wire's end that prevents the local probe from detecting quasi-MZMs. Conversely, the trivial skin disappears when true MZMs form at the edge. This renders tunneling spectroscopy a reliable MZM detection technique for full-shell hybrid nanowires in the presence of smooth disorder.",
+         "title" : "Absence of Quasi-Majorana False Positives in Full-Shell Hybrid Nanowires",
+         "updated" : "2026-04-27T14:00:05-04:00"
+      },
+      {
          "authors" : "Carlos Payá, Oliver Solow, Elsa Prada, Ramón Aguado, Karsten Flensberg",
          "categories" : [
             "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
@@ -155,7 +172,7 @@ jsonarXivFeed({
       }
    ],
    "id" : "http://arxiv.org/a/paya_c_1",
-   "modified" : "2026-04-14T00:00:00-04:00",
+   "modified" : "2026-04-29T00:00:00-04:00",
    "title" : "Carlos Payá's articles on arXiv"
 }
 )
