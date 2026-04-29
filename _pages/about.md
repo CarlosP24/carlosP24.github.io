@@ -19,6 +19,9 @@ If you’d like to discuss my work or potential collaborations, please feel free
 
 
 ## Highlights
+### Latest preprint
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7455195917319696384" height="250" width="100%" style="max-width: 1800px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 ### Latest publication
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7449397826498965504" height="250" width="100%" style="max-width: 1800px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
