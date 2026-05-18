@@ -44,6 +44,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add js/*.js
           git diff --cached --quiet || git commit -m "Update generated JS files [skip ci]"
+          git pull --rebase origin main
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -86,7 +87,8 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git add files/CV.pdf
-          git commit -m "Update CV.pdf from CV repo"
+          git diff --cached --quiet || git commit -m "Update CV.pdf from CV repo [skip ci]"
+          git pull --rebase origin main
           git push
 
       # 2. Build your site (if using Jekyll or another static site generator)
