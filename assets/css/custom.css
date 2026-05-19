@@ -1,3 +1,10 @@
+/* Second line for type tag in conferences/outreach, ragged right */
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
 a {
   color: #05668D;
   text-decoration: none !important;
@@ -112,6 +119,10 @@ a:hover {
   margin: 1.2em 0 0.4em 0;
   padding-bottom: 0.2em;
   border-bottom: 2px solid #e8e8e8;
+}
+
+.cv-pdf-root .pub-section-header {
+  margin: 0.72em 0 0.3em 0;
 }
 
 /* ── Paper index label [Pn] – absolute top-right ───────────────────────── */
@@ -297,3 +308,6773 @@ a:hover {
   color: #6A5840 !important;
   border: 1px solid #d0c4b0;
 }
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0.79em !important;
+  line-height: 1.13;
+  margin: 0 !important;
+}
+  margin-top: 0.28em;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.cv-pdf-status {
+  margin-top: 1em;
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.38em 0 0.18em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+  font-size: 0.84em;
+  color: #666;
+}
+
+.cv-pdf-status--error {
+  color: #a40000;
+  font-weight: 600;
+}
+
+.cv-pdf-compact-card {
+  margin: 0 0 0.38em 0;
+  padding: 0;
+}
+
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.38em 0 !important;
+}
+
+.cv-pdf-root .paper-card__index {
+  color: #b9b9b9;
+  position: static !important;
+  display: none;
+}
+
+.cv-pdf-subsection {
+  font-weight: 700;
+  margin: 0.7em 0 0.35em 0;
+  font-size: 0.9em;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.cv-pdf-section-intro {
+  margin: 0.22em 0 0.58em 0;
+  font-size: 0.84em;
+  color: #3c3c3c;
+}
+
+.cvpdf-badge-line {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.cvpdf-tag-gap {
+  margin-left: 0.68em;
+}
+
+.cvpdf-sep {
+  display: inline-block;
+  margin: 0 0.55em;
+  color: #a4a4a4;
+  font-size: 0.85em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.cv-pdf-resource-line {
+  margin-top: 0.16em !important;
+}
+
+/* cv-pdf-headline: date · bold title row used in static HTML entries */
+.cv-pdf-root .cv-pdf-headline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 0 0 0.08em 0 !important;
+  padding: 0 !important;
+}
+
+.cv-pdf-root .cv-pdf-headline .paper-card__badge--date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cv-pdf-root .cv-pdf-headline .cv-pdf-headline-title {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+}
+
+/* Entry layout: ref number left, body right --- */
+.cv-pdf-entry-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+}
+
+.cv-pdf-entry-ref {
+  flex: 0 0 auto;
+  min-width: 2.6em;
+  font-family: monospace;
+  font-size: 0.78em;
+  color: #aaa;
+  line-height: 1.5;
+  padding-top: 0.08em;
+}
+
+.cv-pdf-entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cv-pdf-entry-body .paper-card__title {
+  padding-right: 0 !important;
+}
+
+/* Title + date on same line (funding/awards) */
+.cv-pdf-entry-title-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0 0 0.04em 0;
+}
+
+.cv-pdf-entry-title-text {
+  flex: 1 1 0;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2f2f2f;
+  text-align: left;
+  min-width: 0;
+  white-space: normal;
+}
+
+.cv-pdf-entry-date {
+  flex: 0 0 auto;
+  color: #3a3a3a;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.cv-pdf-entry-type-line {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 0.08em 0;
+}
+
+.cv-pdf-entry-type-spacer {
+  flex: 1 1 0;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
+
+/* --- Print-oriented CV page used for PDF generation --- */
+.cv-pdf-root {
+  max-width: 100%;
+  color: #111;
+}
+.cv-pdf-compact-card {
+  margin: 0 0 0.18em 0;
+  padding: 0;
+}
+
+.cv-pdf-header {
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+.cv-pdf-header h1 {
+  margin: 0 0 0.2em 0;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  font-weight: 700;
+.cv-pdf-root .paper-card,
+.cv-pdf-root .paper-card--cv,
+.cv-pdf-root .paper-card--talk,
+.cv-pdf-root .paper-card--outreach,
+.cv-pdf-root .cv-pdf-profile-card,
+.cv-pdf-root .cv-pdf-data-card {
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0;
+  padding: 0 !important;
+  margin: 0 0 0.18em 0 !important;
+}
+  letter-spacing: 0.01em;
+}
+
+.cvpdf-badge-line {
+  margin: 0.04em 0 0.04em 0;
+}
+.cv-pdf-header p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.cv-pdf-header .cv-pdf-fullname {
+.cv-pdf-compact-card .paper-card__authors,
+.cv-pdf-compact-card .paper-card__meta {
+  font-size: 0
