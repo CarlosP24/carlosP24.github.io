@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 excerpt: "Curriculum Vitae"
 description: "Download my full CV here."
 permalink: /cv/
@@ -12,61 +12,76 @@ tags: [cv, personal]
 
 {% include base_path %}
 
-Download my full CV [<span style="color:#6A994E;">here</span>](https://carlosp24.github.io/files/CV.pdf).
+<a href="https://carlosp24.github.io/files/CV.pdf" class="cv-download-btn" target="_blank">
+  <i class="fas fa-file-pdf" aria-hidden="true"></i> Download full CV
+</a>
 
-| **Basic info**   |                                                                                                  |
-| --               | --                                                                                               |
-| **Full name**    | Carlos Payá Herrero                                                                              | 
-| **Location**     | [Instituto de Ciencia de Materiales de Madrid (ICMM)](https://www.icmm.csic.es/)                 |
-| **Groups**        | [QUDYMA](https://sites.google.com/view/qudyma-icmm) and [Q4Q](https://wp.icmm.csic.es/tqe/) |
-| **E-mail**       | [carlos.paya@csic.es](mailto:carlos.paya@csic.es) |
+<div class="pub-section-header">Education</div>
 
-***
+<div class="paper-card paper-card--cv">
+  <span class="paper-card__badge paper-card__badge--date">2023–present</span>
+  <span class="paper-card__badge paper-card__badge--cv-edu">PhD</span>
+  <p class="paper-card__title">Condensed Matter Physics</p>
+  <p class="paper-card__authors">Universidad Autónoma de Madrid</p>
+  <p class="paper-card__meta">Tentative completion: February 2027</p>
+</div>
 
-## Education
+<div class="paper-card paper-card--cv">
+  <span class="paper-card__badge paper-card__badge--date">2021–2022</span>
+  <span class="paper-card__badge paper-card__badge--cv-edu">MSc</span>
+  <p class="paper-card__title">Condensed Matter Physics</p>
+  <p class="paper-card__authors">Universidad Autónoma de Madrid</p>
+</div>
 
-* PhD candidate in Condensed Matter Physics, Universidad Autónoma de Madrid, ongoing.
-  * Tentative completion date: February, 2027.
-* MSc in Condensed Matter Physics, Universidad Autónoma de Madrid, 2022.
-* BSc in Physics, Universidad Autónoma de Madrid, 2021.
+<div class="paper-card paper-card--cv">
+  <span class="paper-card__badge paper-card__badge--date">2017–2021</span>
+  <span class="paper-card__badge paper-card__badge--cv-edu">BSc</span>
+  <p class="paper-card__title">Physics</p>
+  <p class="paper-card__authors">Universidad Autónoma de Madrid</p>
+</div>
 
-***
+<div class="pub-section-header">Research positions</div>
 
-## Work experience
+<div class="paper-card paper-card--cv">
+  <span class="paper-card__badge paper-card__badge--date">2023–present</span>
+  <span class="paper-card__badge paper-card__badge--cv-work">PhD Candidate</span>
+  <p class="paper-card__title">Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC</p>
+  <p class="paper-card__authors">Supervisors: Elsa Prada and Ramón Aguado &middot; Groups: <a href="https://sites.google.com/view/qudyma-icmm">QUDYMA</a> and <a href="https://wp.icmm.csic.es/tqe/">Q4Q</a></p>
+  <p class="paper-card__sub-entry">&#8627; Apr–Jul 2025 &middot; Visiting PhD Candidate &middot; Niels Bohr Institute, University of Copenhagen &middot; Supervisor: Karsten Flensberg</p>
+</div>
 
-* 2023-ongoing: PhD Candidate
-  * Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC.
-  * Supervisors: Elsa Prada and Ramón Aguado.
-  * April - July 2025: Visiting PhD Candidate
-    * Niels Bohr Institute, University of Copenhagen.
-    * Supervisor: Karsten Flensberg
+<div class="paper-card paper-card--cv">
+  <span class="paper-card__badge paper-card__badge--date">2021–2022</span>
+  <span class="paper-card__badge paper-card__badge--cv-work">Research Assistant</span>
+  <p class="paper-card__title">Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC</p>
+  <p class="paper-card__authors">Supervisor: Elsa Prada</p>
+</div>
 
-* 2021-2022: Research Assistant
-  * Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC.
-  * Supervisor: Elsa Prada.
-  
-***
+<div class="pub-section-header">Teaching</div>
 
-## Teaching
-### Supervised students
+<div class="paper-card paper-card--cv">
+  <span class="paper-card__badge paper-card__badge--date">2024–2025</span>
+  <span class="paper-card__badge paper-card__badge--cv-teach">BSc Thesis Co-supervision</span>
+  <p class="paper-card__title">César Robles</p>
+  <p class="paper-card__meta">Main supervisor: Elsa Prada</p>
+  <p class="paper-card__meta"><em>Quasi-Majoranas in inhomogeneous full-shell hybrid nanowires</em></p>
+</div>
 
-* 2024-2025: César Robles - Bachelor's Thesis
-  * Main supervisor: Elsa Prada
-  * Title: _Quasi-Majoranas in inhomogeneous full-shell hybrid nanowires_
+<div class="pub-section-header">Outreach</div>
 
-***
+<div class="paper-card paper-card--cv">
+  <span class="paper-card__badge paper-card__badge--date">2023–present</span>
+  <span class="paper-card__badge paper-card__badge--cv-out">Member</span>
+  <p class="paper-card__title"><a href="https://wp.icmm.csic.es/superconductividad/">Superconductivity Outreach Team</a></p>
+  <p class="paper-card__authors">Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC</p>
+  <p class="paper-card__meta">Coordinators: María José Calderón and Leni Bascones &middot; Monthly talks and demonstrations to high-school students</p>
+</div>
 
-## Outreach
+<div class="pub-section-header">Languages</div>
 
-* 2023-ongoing: Member of the Superconductivity Outreach Team.
-  * Instituto de Ciencia de Materiales de Madrid (ICMM), CSIC.
-  * Coordinators: María José Calderón and Leni Bascones.
-  * Regular activites: monthly talks and demonstrations to high-school students.
-
-***
-
-## Languages
-
-* Spanish: Native
-* English: Full professional proficiency (C1)
-* French: Full professional proficiency (C1)
+<div class="paper-card paper-card--cv">
+  <p class="paper-card__title" style="padding-right:0">Languages</p>
+  <p class="paper-card__authors">Spanish &mdash; Native</p>
+  <p class="paper-card__meta">English &mdash; Full professional proficiency (C1)</p>
+  <p class="paper-card__meta">French &mdash; Full professional proficiency (C1)</p>
+</div>

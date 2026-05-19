@@ -8,10 +8,8 @@ author_profile: true
 tags: [publications, research]
 ---
 {% include base_path %}
-<div id="arxivfeed"></div>
-<div style="margin-left:1em;">
-  {% include other_works.html %}
-</div>
+<div id="arxivfeed" data-featured-dois="{{ site.featured_dois | join: ',' }}" data-notable-dois="{{ site.notable_dois | join: ',' }}"></div>
+{% include other_works.html %}
 <script type="text/javascript">
   var arxiv_authorid = "paya_c_1";
   var arxiv_format = "arxiv";

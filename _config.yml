@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Carlos Payá Herrero"
   avatar           : "profile-pic.jpeg"
-  bio              : "PhD candidate in Theroetical Condensed Matter Physics"
+  bio              : "PhD candidate in Theoretical Condensed Matter Physics"
   location         : "Madrid, Spain"
   location_link    : "https://maps.app.goo.gl/e2rG8qEtnmAiGJBs8"
   employer         : "ICMM - CSIC"
@@ -329,6 +329,14 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+
+# Featured paper DOIs – shown in Highlights (about page) and highlighted in Publications
+featured_dois:
+  - "10.1103/PhysRevLett.134.206302"
+
+# Notable paper DOIs (tier-2, silver highlight in Publications only)
+notable_dois:
+  - "10.1103/9jdy-b418"
 
 # HTML Compression
 # - http://jch.penibelst.de/

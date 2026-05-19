@@ -39,24 +39,54 @@ function jsonarXivFeed(feed) {
     headID.appendChild(newScript);
 })();
 
+/* ── Journal lookup (mirrors highlights.js) ─────────────────────────────── */
+var PUB_JOURNALS = [
+    { match: 'Phys. Rev. Lett.',        label: 'Phys. Rev. Lett.',   highIF: true  },
+    { match: 'Physical Review Letters', label: 'Phys. Rev. Lett.',   highIF: true  },
+    { match: 'Phys. Rev. B',            label: 'Phys. Rev. B',       highIF: false },
+    { match: 'Physical Review B',       label: 'Phys. Rev. B',       highIF: false },
+    { match: 'Phys. Rev. X',            label: 'Phys. Rev. X',       highIF: true  },
+    { match: 'PRX Quantum',             label: 'PRX Quantum',        highIF: true  },
+    { match: 'SciPost Phys.',           label: 'SciPost Phys.',      highIF: true  },
+    { match: 'SciPost Physics',         label: 'SciPost Phys.',      highIF: true  },
+    { match: 'npj Quantum Mat',         label: 'npj Quantum Mat.',   highIF: true  },
+    { match: 'Nature Physics',          label: 'Nature Phys.',       highIF: true  },
+    { match: 'Nature',                  label: 'Nature',             highIF: true  },
+    { match: 'Science',                 label: 'Science',            highIF: true  },
+];
+
+function pubGetJournalInfo(ref) {
+    if (!ref || ref.length <= 1) return null;
+    for (var i = 0; i < PUB_JOURNALS.length; i++) {
+        if (ref.indexOf(PUB_JOURNALS[i].match) !== -1) {
+            return { label: PUB_JOURNALS[i].label, highIF: PUB_JOURNALS[i].highIF };
+        }
+    }
+    var m = ref.match(/^([A-Za-z][A-Za-z.\s\-]+?)\s+\d/);
+    return { label: m ? m[1].trim() : 'Journal', highIF: false };
+}
+
 function makearXiv(feed) {
     var x = 0;
-    var html = '<div id="arxivcontainer" style="font-family:Lucida Grande,helvetica, arial, verdana,sans-serif;margin:.7em;font-size:90%">\n';
-    html += '<dl style="margin:0;">\n';
+    var html = '';
+
+    // Read featured DOIs from the container element
+    var feedEl = document.getElementById('arxivfeed');
+    var featuredDois = {};
+    var notableDois = {};
+    if (feedEl) {
+        var raw = feedEl.getAttribute('data-featured-dois') || '';
+        raw.split(',').forEach(function(d) { var doi = d.trim(); if (doi) featuredDois[doi] = true; });
+        var raw2 = feedEl.getAttribute('data-notable-dois') || '';
+        raw2.split(',').forEach(function(d) { var doi = d.trim(); if (doi) notableDois[doi] = true; });
+    }
 
     // Determine number of entries to show
-    var num_entries, extra_entries;
-    if (arxiv_max_entries === 0) {
+    var num_entries;
+    if (arxiv_max_entries === 0 || arxiv_max_entries >= feed.entries.length) {
         num_entries = feed.entries.length;
-        extra_entries = false;
-    }
-    else if (arxiv_max_entries >= feed.entries.length) {
-        num_entries = feed.entries.length;
-        extra_entries = false;
-    }
-    else {
+    } else {
         num_entries = arxiv_max_entries;
-        extra_entries = true;
     }
 
     // Separate entries with and without journal_ref
@@ -70,107 +100,106 @@ function makearXiv(feed) {
         }
     }
 
-    // Helper function to render an entry, given the entry and its display index
+    // ── Card renderer ────────────────────────────────────────────────────────
     function renderEntry(entry, displayIndex) {
-        var html = '';
-        html += '<dt style="display:flex;align-items:flex-start;margin-bottom:0.25em;">';
-        html += '<span style="display:inline-block;min-width:3.5em;text-align:right;font-family:monospace;">[P' + displayIndex + ']</span>';
-        html += '<span class="list-identifier" style="font-size:large;font-weight:bold;margin-left:0.5em;line-height:120%">';
-        if (entry.journal_ref && entry.journal_ref.length > 1 && entry.doi && entry.doi.length > 0) {
-            html += '<a href="https://dx.doi.org/' + entry.doi + '" title="Journal" style="text-decoration:none;color:inherit;">' + entry.title + '</a>';
-        } else {
-            html += '<a href="' + entry.id + '" title="Preprint" style="text-decoration:none;color:inherit;">' + entry.title + '</a>';
-        }
-        html += "</span>\n</dt>\n";
-        html += '<dd style="margin:0 0 1em 0; padding:0 0 0 4.2em;">\n<div class="meta" style="line-height:130%;">\n';
+        var isPreprint = !entry.journal_ref || entry.journal_ref.length <= 1;
+        var isFeatured = !!(entry.doi && featuredDois[entry.doi]);
+        var isNotable  = !isFeatured && !!(entry.doi && notableDois[entry.doi]);
+        var cardClass  = isFeatured ? ' paper-card--featured' : (isNotable ? ' paper-card--notable' : '');
+        var tierTag    = isFeatured
+            ? '<span class="paper-card__featured-tag">&#9733;&nbsp;Featured</span>'
+            : (isNotable ? '<span class="paper-card__notable-tag">&#9733;&nbsp;Notable</span>' : '');
 
-        // Authors
-        var authorsList = entry.authors.split(',').map(function(name) { return name.trim(); });
-        var authorsHtml = authorsList.map(function(name) {
-            if (name === "Carlos Payá") {
-                return '<b>Carlos Payá</b>';
-            } else if (name.length > 0) {
-                var encodedName = encodeURIComponent(name);
-                return '<a href="https://arxiv.org/search/?query=' + encodedName + '&searchtype=author" target="_blank" title="Author\'s arXiv" style="text-decoration:none;color:inherit;font-weight:normal;">' + name + '</a>';
-            } else {
-                return '';
-            }
-        }).join(', ');
-        html += '<div class="list-authors" style="font-weight:normal;font-size:100%;text-decoration:none;">' + authorsHtml + '</div>\n';
-
-        // Journal ref
-        if (arxiv_includeJournalRef && entry.journal_ref && entry.journal_ref.length > 1) {
-            html += '<div class="list-journal-ref" style="font-weight:normal;font-size:100%;color:#6A994E;text-decoration:none;display:flex;align-items:center;">';
-            if (entry.doi && entry.doi.length > 0) {
-                html += '<a href="https://dx.doi.org/' + entry.doi + '" title="Journal" style="color:#6A994E;text-decoration:none;">' + entry.journal_ref + '</a>';
-                // Add Altmetric badge next to journal reference
-                html += '<div class="altmetric-embed" data-badge-popover="bottom" data-doi="' + entry.doi + '" style="display:inline-block;margin-left:10px;"></div>';
-                // Add Dimensions badge next to Altmetric badge
-                html += '<span class="__dimensions_badge_embed__" data-doi="' + entry.doi + '" data-style="small_rectangle" data-hide-zero-citations="true" data-legend="hover-right" style="display:inline-block;margin-left:10px;"></span>';
-            } else {
-                html += entry.journal_ref;
-            }
-            html += '</div>\n';
-        }
-
-        // arXiv id and year
+        // arXiv ID
+        var arxivId = null;
         var absMatch = entry.id.match(/arxiv\.org\/abs\/([^\/\?#]+)/i);
         if (absMatch && absMatch[1]) {
-            absMatch[1] = absMatch[1].replace(/v\d+$/, '');
-        }
-        if (absMatch && absMatch[1]) {
-            var year = '';
-            if (entry.updated) {
-                var match = entry.updated.match(/^(\d{4})/);
-                if (match) {
-                    year = match[1];
-                }
-            }
-            html += '<div class="list-arxiv-id" style="font-weight:normal;font-size:100%;">' +
-                '<a href="' + entry.id + '" title="Preprint" style="text-decoration:none;color:#BC4749;">arXiv:' + absMatch[1] + (year ? ' (' + year + ')' : '') + '</a></div>\n';
+            arxivId = absMatch[1].replace(/v\d+$/, '');
         }
 
-        // Summary (if enabled)
-        // if (arxiv_includeSummary != 0) {
-        //     html += '<p>' + entry.summary + '</p>\n';
-        // }
-        html += '</div>\n</dd>';
-        return html;
+        // Badge
+        var jInfo = isPreprint ? null : pubGetJournalInfo(entry.journal_ref);
+        var badgeClass, badgeLabel;
+        if (isPreprint) {
+            badgeClass = 'paper-card__badge--preprint';
+            badgeLabel = 'Preprint';
+        } else if (jInfo && jInfo.highIF) {
+            badgeClass = 'paper-card__badge--highif';
+            badgeLabel = jInfo.label;
+        } else {
+            badgeClass = 'paper-card__badge--lowif';
+            badgeLabel = jInfo ? jInfo.label : 'Journal';
+        }
+
+        // Title link: DOI preferred, fall back to arXiv page
+        var titleLink = (!isPreprint && entry.doi && entry.doi.length > 0)
+            ? 'https://dx.doi.org/' + entry.doi
+            : entry.id;
+
+        // Authors – bold Carlos Payá
+        var authorsHtml = (entry.authors || '').replace(/Carlos Payá/g, '<strong>Carlos Payá</strong>');
+
+        // Year from published field
+        var year = entry.published ? entry.published.substring(0, 4) : '';
+
+        // Meta line parts
+        var metaParts = [];
+        if (!isPreprint && entry.journal_ref) {
+            var jrefHtml = (entry.doi && entry.doi.length > 0)
+                ? '<a href="https://dx.doi.org/' + entry.doi + '" class="paper-card__journal-ref">' + entry.journal_ref + '</a>'
+                : '<span class="paper-card__journal-ref">' + entry.journal_ref + '</span>';
+            metaParts.push(jrefHtml);
+        }
+        if (arxivId) {
+            metaParts.push(
+                '<a href="https://arxiv.org/abs/' + arxivId + '" class="paper-card__arxiv-ref">'
+                + 'arXiv:' + arxivId + (year ? ' (' + year + ')' : '') + '</a>'
+            );
+        }
+
+        // Altmetric + Dimensions badges (published papers with DOI only)
+        var badgesHtml = '';
+        if (!isPreprint && entry.doi && entry.doi.length > 0) {
+            badgesHtml = '<div class="altmetric-embed" data-badge-popover="bottom" data-doi="' + entry.doi + '"></div>'
+                + '<span class="__dimensions_badge_embed__" data-doi="' + entry.doi
+                + '" data-style="small_rectangle" data-hide-zero-citations="true" data-legend="hover-right"></span>';
+        }
+
+        var metaHtml = metaParts.join(' &middot; ');
+
+        return '<div class="paper-card' + cardClass + '">'
+            + '<span class="paper-card__index">'
+            + tierTag
+            + '[P' + displayIndex + ']</span>'
+            + '<span class="paper-card__badge ' + badgeClass + '">' + badgeLabel + '</span>'
+            + '<p class="paper-card__title"><a href="' + titleLink + '">' + entry.title + '</a></p>'
+            + '<p class="paper-card__authors">' + authorsHtml + '</p>'
+            + '<p class="paper-card__meta">' + metaHtml + '</p>'
+            + (badgesHtml ? '<div class="paper-card__badges">' + badgesHtml + '</div>' : '')
+            + '<div class="paper-card__abstract-hover">'
+            +   '<p class="paper-card__summary">' + (entry.summary || '') + '</p>'
+            + '</div>'
+            + '</div>';
     }
 
-    // Render entries without journal_ref first (only if there are any)
+    // ── Render all entries ───────────────────────────────────────────────────
     if (entriesWithoutJournalRef.length > 0) {
-        html += '<div style="font-weight:bold; font-size:110%; margin-bottom:0.5em;">Preprints:</div>\n';
         for (x = 0; x < entriesWithoutJournalRef.length; x++) {
             html += renderEntry(entriesWithoutJournalRef[x], num_entries - x);
         }
-        html += '<hr style="border:0; border-top:2px solid #F2F2F3; margin:1em 0;">\n';
     }
 
-    // Then render entries with journal_ref
-    html += '<div style="font-weight:bold; font-size:110%; margin-top:1em; margin-bottom:0.5em;">Journals:</div>\n';
     for (var y = 0; y < entriesWithJournalRef.length; y++) {
         html += renderEntry(entriesWithJournalRef[y], num_entries - (entriesWithoutJournalRef.length + y));
     }
 
-
-    html += '</dl>\n</div>\n';
     document.getElementById('arxivfeed').innerHTML = html;
-    if (typeof _altmetric_embed_init !== 'undefined') {
-        _altmetric_embed_init();
+
+    // Initialise metric badges (retry after short delay for async badge scripts)
+    function initBadges() {
+        if (window._altmetric_embed_init) window._altmetric_embed_init();
+        if (window.__dimensions_embed && window.__dimensions_embed.addBadges) window.__dimensions_embed.addBadges();
     }
-    if (typeof __dimensions_embed !== 'undefined') {
-        __dimensions_embed.addBadges();
-    }
-    setTimeout(function() {
-        // Altmetric refresh
-        if (window._altmetric_embed_init) {
-            window._altmetric_embed_init();
-        }
-        
-        // Dimensions refresh
-        if (window.__dimensions_embed && window.__dimensions_embed.addBadges) {
-            window.__dimensions_embed.addBadges();
-        }
-    }, 100);
+    initBadges();
+    setTimeout(initBadges, 300);
 }

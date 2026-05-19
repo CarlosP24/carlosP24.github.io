@@ -5,3 +5,262 @@ a {
 a:hover {
   color: #BC4749;
 }
+
+/* ── Paper highlight cards ───────────────────────────── */
+.paper-card {
+  position: relative;
+  border-left: 4px solid #05668D;
+  background: #f8f9fa;
+  padding: 0.6em 1em;
+  margin: 0.5em 0 0.9em 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Badge – color encodes journal impact factor */
+.paper-card__badge {
+  display: inline-block;
+  font-size: 0.67em;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  vertical-align: middle;
+  margin-bottom: 0.3em;
+  color: #fff;
+}
+.paper-card__badge--preprint    { background: #e07b39; } /* orange – preprint           */
+.paper-card__badge--highif      { background: #6A994E; } /* green  – IF > 5             */
+.paper-card__badge--lowif       { background: #05668D; } /* blue   – IF ≤ 5             */
+/* Talk type badges */
+.paper-card__badge--invited     { background: #C8900A; } /* gold   – invited talk       */
+.paper-card__badge--tutorial    { background: #7B5EA7; } /* purple – tutorial           */
+.paper-card__badge--contributed { background: #05668D; } /* blue   – contributed talk   */
+.paper-card__badge--poster      { background: #2E9E9E; } /* teal   – poster             */
+.paper-card__badge--attended    { background: #888;    } /* gray   – attended           */
+
+/* Title – padding-right leaves room for the absolute-positioned [Pn] index */
+.paper-card__title {
+  font-size: 1em;
+  font-weight: bold;
+  padding-right: 3.2em;
+  margin: 0 0 0.05em 0 !important;
+  line-height: 1.35;
+}
+
+/* Authors – user's name is wrapped in <strong> */
+.paper-card__authors {
+  font-size: 0.86em !important;
+  color: #444;
+  margin: 0 !important;
+}
+
+/* Meta line: journal ref (green) · arXiv (red) */
+.paper-card__meta {
+  font-size: 0.86em !important;
+  margin: 0 !important;
+}
+.paper-card__journal-ref {
+  color: #6A994E;
+}
+.paper-card__arxiv-ref,
+.paper-card__arxiv-ref:visited {
+  color: #BC4749 !important;
+}
+.paper-card__arxiv-ref:hover {
+  color: #8c1f20 !important;
+}
+
+/* ── Section headers on publications page ──────────────────────────────── */
+.pub-section-header {
+  font-weight: bold;
+  font-size: 1.05em;
+  margin: 1.2em 0 0.4em 0;
+  padding-bottom: 0.2em;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+/* ── Paper index label [Pn] – absolute top-right ───────────────────────── */
+.paper-card__index {
+  position: absolute;
+  top: 0.6em;
+  right: 0.7em;
+  font-family: monospace;
+  font-size: 0.82em;
+  color: #bbb;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+/* Featured tag inside the index: cancel float so it sits inline */
+.paper-card__index .paper-card__featured-tag,
+.paper-card__index .paper-card__notable-tag {
+  float: none;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* ── Metric badges row (Altmetric + Dimensions) – bottom-right ──────────── */
+.paper-card__badges {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+  margin: 0.3em 0 0 0 !important;
+  line-height: 1;
+}
+
+/* ── Featured card variant (tier 1 – gold) ──────────────────────────── */
+.paper-card--featured {
+  border-left-color: #C8900A;
+  background: #fffdf5;
+}
+.paper-card__featured-tag {
+  float: right;
+  font-size: 0.72em; font-weight: bold;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  color: #C8900A;
+  margin-top: 0.1em;
+}
+
+/* ── Notable card variant (tier 2 – silver) ────────────────────────── */
+.paper-card--notable {
+  border-left-color: #8898A4;
+  background: #f5f7f9;
+}
+.paper-card__notable-tag {
+  float: right;
+  font-size: 0.72em; font-weight: bold;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  color: #8898A4;
+  margin-top: 0.1em;
+}
+
+/* ── Section labels above auto-generated cards ─────────────────────────── */
+.paper-card__section-label {
+  font-size: 0.78em !important;
+  color: #888;
+  font-style: italic;
+  margin: 0.9em 0 0.2em 0 !important;
+}
+
+/* Written summary (static highlighted card) */
+.paper-card__summary {
+  font-size: 0.88em;
+  color: #444;
+  margin: 0.35em 0 0 0;
+  line-height: 1.55;
+}
+
+/* Expandable abstract on hover (auto-generated cards) */
+.paper-card__abstract-hover {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+.paper-card:hover .paper-card__abstract-hover {
+  max-height: 1200px;
+  transition: max-height 0.5s ease-in;
+}
+.paper-card__abstract-hover .paper-card__summary {
+  margin-top: 0.35em;
+  padding-top: 0.3em;
+  border-top: 1px solid #ddd;
+}
+
+/* ── Talk card variant ─────────────────────────────────────────────────── */
+.paper-card--talk {
+  border-left-color: #A08060;
+  background: #faf9f7;
+}
+.paper-card--talk .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #e0d8cc;
+}
+/* Contribution title color (talks) */
+.talk-card__cont-title { color: #5A5040; }
+
+/* ── Outreach card variant ─────────────────────────────────────────────── */
+.paper-card--outreach {
+  border-left-color: #5A8A60;
+  background: #f3f8f4;
+}
+.paper-card--outreach .paper-card__abstract-hover .paper-card__summary {
+  border-top-color: #c0dcc4;
+}
+/* Outreach type badges */
+.paper-card__badge--workshopper { background: #5A8A60; }
+.paper-card__badge--logistics   { background: #888;    }
+
+/* ── CV card variant ───────────────────────────────────────────────────── */
+.paper-card--cv {
+  border-left-color: #6870A8;
+  background: #f5f5fb;
+}
+/* CV badge types */
+.paper-card__badge--cv-edu   { background: #6870A8; } /* Education      */
+.paper-card__badge--cv-work  { background: #2D7A9A; } /* Work positions */
+.paper-card__badge--cv-teach { background: #6A9A60; } /* Teaching       */
+.paper-card__badge--cv-out   { background: #5A8A60; } /* Outreach       */
+/* Sub-entry (e.g. visiting position) nested inside a card */
+.paper-card__sub-entry {
+  font-size: 0.83em !important;
+  color: #555;
+  margin: 0.25em 0 0 0.5em !important;
+  padding-left: 0.65em;
+  border-left: 2px solid #c0bce0;
+  line-height: 1.4;
+}
+/* CV download button */
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border-radius: 5px;
+  background: #6870A8;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 1.4em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+.cv-download-btn:hover { opacity: 0.82; color: #fff !important; }
+
+.paper-card__badge--date {
+  background: transparent;
+  color: #777;
+  border-color: #bbb;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+/* CV card badges keep natural casing (role titles are too long for all-caps) */
+.paper-card--cv .paper-card__badge { text-transform: none; }
+/* Aesthetic action buttons (PDF / references) */
+.talk-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+  line-height: 1.6;
+}
+.talk-card__btn:hover { opacity: 0.78; color: inherit !important; }
+.talk-card__btn--pdf  {
+  background: #fdecea;
+  color: #BC4749 !important;
+  border: 1px solid #e8b4b5;
+}
+.talk-card__btn--refs {
+  background: #f3f0ea;
+  color: #6A5840 !important;
+  border: 1px solid #d0c4b0;
+}
