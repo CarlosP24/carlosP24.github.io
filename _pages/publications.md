@@ -8,6 +8,10 @@ author_profile: true
 tags: [publications, research]
 ---
 {% include base_path %}
+<div class="pub-search-wrap">
+  <input id="pub-search" type="search" placeholder="Search by title, author, keyword, year…" aria-label="Search publications" autocomplete="off" />
+  <span id="pub-search-count"></span>
+</div>
 <div id="arxivfeed" data-featured-dois="{{ site.featured_dois | join: ',' }}" data-notable-dois="{{ site.notable_dois | join: ',' }}"></div>
 {% include other_works.html %}
 <script type="text/javascript">

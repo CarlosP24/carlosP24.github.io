@@ -17,6 +17,32 @@ function manageDefaults() {
     return 1;	
 }
 
+// Strip diacritics and lowercase – so "Paya" matches "Payá", etc.
+function normalizeText(s) {
+    return (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
+// Abbreviation → fragment that appears in the normalised blob.
+// Keys must be lowercase; values will themselves be normalised at match time.
+var SEARCH_ALIASES = {
+    'prl':     'phys. rev. lett.',
+    'prb':     'phys. rev. b',
+    'prx':     'phys. rev. x',
+    'prxq':    'prx quantum',
+    'pra':     'phys. rev. a',
+    'prc':     'phys. rev. c',
+    'prd':     'phys. rev. d',
+    'pre':     'phys. rev. e',
+    'rmp':     'rev. mod. phys.',
+    'njp':     'new j. phys.',
+    'npjqm':   'npj quantum mat',
+    'scipost': 'scipost phys.',
+    'natphys': 'nature phys',
+    'natcomm': 'nat. commun',
+    'nc':      'nat. commun',
+    'pnas':    'proc. natl. acad.',
+};
+
 // IE doesn't like &apos; which we have in JSON data, so change to numeric entity
 function htmlFix(html) {
       var re = new RegExp('&apos;', 'g');
@@ -167,7 +193,17 @@ function makearXiv(feed) {
 
         var metaHtml = metaParts.join(' &middot; ');
 
-        return '<div class="paper-card' + cardClass + '">'
+        // Build a normalised plain-text blob for search filtering
+        var searchBlob = normalizeText([
+            entry.title || '',
+            entry.authors || '',
+            entry.summary || '',
+            entry.journal_ref || '',
+            arxivId || '',
+            year
+        ].join(' '));
+
+        return '<div class="paper-card' + cardClass + '" data-search="' + searchBlob.replace(/"/g, '&quot;') + '">'
             + '<span class="paper-card__index">'
             + tierTag
             + '[P' + displayIndex + ']</span>'
@@ -202,4 +238,35 @@ function makearXiv(feed) {
     }
     initBadges();
     setTimeout(initBadges, 300);
+
+    setupSearch();
+}
+
+function setupSearch() {
+    var input = document.getElementById('pub-search');
+    var countEl = document.getElementById('pub-search-count');
+    if (!input) return;
+
+    function filterCards() {
+        var rawTerms = normalizeText(input.value).trim().split(/\s+/).filter(Boolean);
+        // Expand any known abbreviations
+        var terms = rawTerms.map(function(t) {
+            return SEARCH_ALIASES.hasOwnProperty(t) ? normalizeText(SEARCH_ALIASES[t]) : t;
+        });
+        var cards = document.querySelectorAll('#arxivfeed .paper-card');
+        var visible = 0;
+        cards.forEach(function(card) {
+            var blob = card.getAttribute('data-search') || '';
+            var match = terms.every(function(t) { return blob.indexOf(t) !== -1; });
+            card.style.display = match ? '' : 'none';
+            if (match) visible++;
+        });
+        if (countEl) {
+            countEl.textContent = terms.length
+                ? visible + ' / ' + cards.length + ' papers'
+                : '';
+        }
+    }
+
+    input.addEventListener('input', filterCards);
 }

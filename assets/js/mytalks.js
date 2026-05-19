@@ -2,6 +2,10 @@ function htmlFix(html) {
     return (html || '').replace(/&apos;/g, '&#39;');
 }
 
+function normalizeTalkText(s) {
+    return (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
 function talksFeed(feed) {
     makeTalks(feed);
 }
@@ -91,7 +95,18 @@ function makeTalks(feed) {
             ? '<a href="' + entry.talk_url + '" target="_blank">' + htmlFix(entry.title) + '</a>'
             : htmlFix(entry.title);
 
-        return '<div class="paper-card paper-card--talk">'
+        // Build normalised search blob
+        var searchBlob = normalizeTalkText([
+            entry.title || '',
+            entry.venue || '',
+            entry.location || '',
+            entry.date || '',
+            entry.type || '',
+            entry.cont_title || '',
+            entry.description || ''
+        ].join(' ')).replace(/"/g, '&quot;');
+
+        return '<div class="paper-card paper-card--talk" data-search="' + searchBlob + '">'
             + '<span class="paper-card__index">[C' + idx + ']</span>'
             + badgesTop
             + '<p class="paper-card__title">' + titleInner + '</p>'
@@ -108,4 +123,30 @@ function makeTalks(feed) {
     });
 
     document.getElementById('talksfeed').innerHTML = html;
+    setupTalkSearch();
+}
+
+function setupTalkSearch() {
+    var input = document.getElementById('talk-search');
+    var countEl = document.getElementById('talk-search-count');
+    if (!input) return;
+
+    function filterCards() {
+        var terms = normalizeTalkText(input.value).trim().split(/\s+/).filter(Boolean);
+        var cards = document.querySelectorAll('#talksfeed .paper-card');
+        var visible = 0;
+        cards.forEach(function(card) {
+            var blob = card.getAttribute('data-search') || '';
+            var match = terms.every(function(t) { return blob.indexOf(t) !== -1; });
+            card.style.display = match ? '' : 'none';
+            if (match) visible++;
+        });
+        if (countEl) {
+            countEl.textContent = terms.length
+                ? visible + ' / ' + cards.length + ' contributions'
+                : '';
+        }
+    }
+
+    input.addEventListener('input', filterCards);
 }
