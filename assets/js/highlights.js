@@ -90,7 +90,7 @@
     /* Meta line */
     var metaParts = [];
     if (!isPreprint && entry.journal_ref) {
-      metaParts.push('<span class="paper-card__journal-ref">' + entry.journal_ref + '</span>');
+      metaParts.push('<a href="' + titleLink + '" class="paper-card__journal-ref">' + entry.journal_ref + '</a>');
     }
     if (arxivId) {
       var year = entry.published ? entry.published.substring(0, 4) : '';
