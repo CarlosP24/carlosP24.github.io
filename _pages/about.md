@@ -11,7 +11,7 @@ tags: [about, personal]
 image: "/images/Sketch.png"
 ---
 
-Hi! I'm Carlos, a theoretical condensed matter physicist pursuing my PhD at the [QUDYMA](https://sites.google.com/view/qudyma-icmm) and [Q4Q](https://wp.icmm.csic.es/tqe/) groups at [ICMM, CSIC](https://www.icmm.csic.es/), in Madrid, under the supervision of [Elsa Prada](https://elsaprada.github.io/) and [Ramón Aguado](https://wp.icmm.csic.es/tqe/people/ramon-aguado/).
+Hi! I'm Carlos, a theoretical condensed matter physicist pursuing my PhD at the [QUDYMA](https://sites.google.com/view/qudyma-icmm) and [Q4Q](https://wp.icmm.csic.es/tqe/) groups at [ICMM, CSIC](https://www.icmm.csic.es/), in Madrid, under the supervision of [Elsa Prada](https://elsaprada.github.io/) and [Ramón Aguado](https://wp.icmm.csic.es/tqe/people/ramon-aguado/), in close collaboration with [Pablo San-Jose](https://pablosanjose.github.io/).
 
 My research focuses on one-dimensional hybrid semiconductor-superconductor systems, with particular emphasis on full-shell nanowires. I combine large-scale numerical simulations with analytical modelling to address open questions spanning topological superconductivity, transport phenomena, and the rich phase structure of these devices.
 
