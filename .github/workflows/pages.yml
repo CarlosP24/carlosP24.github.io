@@ -92,6 +92,7 @@ jobs:
           tail -100 cv/CV.log
 
       - name: Commit and push all generated files
+        if: github.event_name == 'workflow_dispatch'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
