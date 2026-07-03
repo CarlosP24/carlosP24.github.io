@@ -131,5 +131,5 @@ jobs:
 
       - name: Final Retry Deploy to GitHub Pages
         id: deployment_retry_2
-        if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure'
+        if: steps.deployment_retry.outcome == 'failure'
         uses: actions/deploy-pages@v4
