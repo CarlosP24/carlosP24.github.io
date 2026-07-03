@@ -15,7 +15,7 @@ Hi! I'm Carlos, a theoretical condensed matter physicist pursuing my PhD at the 
 
 My research focuses on one-dimensional hybrid semiconductor-superconductor systems, with particular emphasis on full-shell nanowires. I combine large-scale numerical simulations with analytical modelling to address open questions spanning topological superconductivity, transport phenomena, and the rich phase structure of these devices.
 
-I collaborate closely with several experimental groups, see the [publications](https://carlospaya.github.io/publications/) section. I also undertook a research visit to [Karsten Flensberg's group](https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/) at the University of Copenhagen in 2025, where I began working on non-Hermitian transport in hybrid devices.
+I collaborate closely with several experimental groups, see the [publications]({{ '/publications/' | relative_url }}) section. I also undertook a research visit to [Karsten Flensberg's group](https://nbi.ku.dk/english/research/condensed-matter-physics/condensed-matter-theory/) at the University of Copenhagen in 2025, where I began working on non-Hermitian transport in hybrid devices.
 
 Feel free to reach out via email at [carlos.paya@csic.es](mailto:carlos.paya@csic.es).
 
