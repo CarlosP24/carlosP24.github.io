@@ -106,6 +106,9 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
