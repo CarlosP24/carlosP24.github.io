@@ -55,7 +55,8 @@ jobs:
             "../js/outreach.js" \
             "../js/funding.js" \
             "../js/awards.js" \
-            "Payá, Carlos"
+            "Payá, Carlos" \
+            "../js/publications.js"
           cd ..
           rm -rf cv/venv
 
