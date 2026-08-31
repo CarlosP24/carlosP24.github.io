@@ -332,6 +332,7 @@ tag_archive:
 
 # Featured paper DOIs – shown in Highlights (about page) and highlighted in Publications
 featured_dois:
+  - "10.1103/w9tp-3bbq"
   - "10.1103/PhysRevLett.134.206302"
 
 # Notable paper DOIs (tier-2, silver highlight in Publications only)
